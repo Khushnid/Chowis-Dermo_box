@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="landscape" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AvenirLTStd-Book.ttf">
+            <string>AvenirLTStd-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EthnicityViewController" customModule="Chowis_Analysis_Skin_2" customModuleProvider="target">
+            <connections>
+                <outlet property="asianEastButton" destination="frT-TK-wW4" id="Ywk-LO-ecp"/>
+                <outlet property="cancelButton" destination="k6a-Yg-LJQ" id="jPd-0P-DgZ"/>
+                <outlet property="caucasianButton" destination="gHb-ha-b2A" id="f83-rW-1CX"/>
+                <outlet property="darkSkinButton" destination="fsy-Z1-16b" id="Neo-SC-Icv"/>
+                <outlet property="ethnicityTitleLabel" destination="4e3-8n-Y2r" id="duf-TO-Izj"/>
+                <outlet property="hispanicButton" destination="qHH-ZN-J6P" id="RpY-BN-Edl"/>
+                <outlet property="southEastAsianButton" destination="nwZ-03-ykz" id="2Jr-IZ-wTF"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BXe-hu-cyJ">
+                    <rect key="frame" x="102.5" y="77" width="819" height="614"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zBc-9E-5wx">
+                            <rect key="frame" x="0.0" y="0.0" width="819" height="60"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ETHNICITY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4e3-8n-Y2r">
+                                    <rect key="frame" x="16" y="4" width="787" height="52"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                    <color key="textColor" red="1" green="0.82352941176470584" blue="0.25098039215686274" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                    <variation key="heightClass=regular-widthClass=regular">
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                                    </variation>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="4e3-8n-Y2r" secondAttribute="bottom" constant="4" id="6aK-Nd-hhV"/>
+                                <constraint firstAttribute="height" constant="50" id="Nsr-y2-IUH">
+                                    <variation key="heightClass=regular-widthClass=regular" constant="60"/>
+                                </constraint>
+                                <constraint firstAttribute="trailing" secondItem="4e3-8n-Y2r" secondAttribute="trailing" constant="16" id="Wk0-h1-G4F"/>
+                                <constraint firstItem="4e3-8n-Y2r" firstAttribute="top" secondItem="zBc-9E-5wx" secondAttribute="top" constant="4" id="orW-AU-ain"/>
+                                <constraint firstItem="4e3-8n-Y2r" firstAttribute="leading" secondItem="zBc-9E-5wx" secondAttribute="leading" constant="16" id="w6x-kX-ccr"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kGa-0s-zLv">
+                            <rect key="frame" x="0.0" y="60" width="819" height="554"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="By5-6S-aS2">
+                                    <rect key="frame" x="209.5" y="77" width="400" height="400"/>
+                                    <subviews>
+                                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="frT-TK-wW4">
+                                            <rect key="frame" x="0.0" y="0.0" width="400" height="60"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <fontDescription key="fontDescription" name="AvenirLTStd-Book" family="Avenir LT Std" pointSize="16"/>
+                                            <state key="normal" title="ASIAN EAST">
+                                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <variation key="heightClass=regular-widthClass=regular">
+                                                <fontDescription key="fontDescription" name="AvenirLTStd-Book" family="Avenir LT Std" pointSize="20"/>
+                                            </variation>
+                                            <connections>
+                                                <action selector="ethnicityButtonPressed:" destination="-1" eventType="touchUpInside" id="xJc-OJ-VTB"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nwZ-03-ykz">
+                                            <rect key="frame" x="0.0" y="68" width="400" height="60"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <fontDescription key="fontDescription" name="AvenirLTStd-Book" family="Avenir LT Std" pointSize="16"/>
+                                            <state key="normal" title="S/E ASIAN">
+                                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <variation key="heightClass=regular-widthClass=regular">
+                                                <fontDescription key="fontDescription" name="AvenirLTStd-Book" family="Avenir LT Std" pointSize="20"/>
+                                            </variation>
+                                            <connections>
+                                                <action selector="ethnicityButtonPressed:" destination="-1" eventType="touchUpInside" id="pqd-lX-Plf"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gHb-ha-b2A">
+                                            <rect key="frame" x="0.0" y="136" width="400" height="60"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="30" id="VTc-t8-LL3">
+                                                    <variation key="heightClass=regular-widthClass=regular" constant="60"/>
+                                                </constraint>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="AvenirLTStd-Book" family="Avenir LT Std" pointSize="16"/>
+                                            <state key="normal" title="CAUCASIAN">
+                                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <variation key="heightClass=regular-widthClass=regular">
+                                                <fontDescription key="fontDescription" name="AvenirLTStd-Book" family="Avenir LT Std" pointSize="20"/>
+                                            </variation>
+                                            <connections>
+                                                <action selector="ethnicityButtonPressed:" destination="-1" eventType="touchUpInside" id="3Y8-QX-nLf"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fsy-Z1-16b">
+                                            <rect key="frame" x="0.0" y="204" width="400" height="60"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <fontDescription key="fontDescription" name="AvenirLTStd-Book" family="Avenir LT Std" pointSize="16"/>
+                                            <state key="normal" title="DARK SKINS">
+                                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <variation key="heightClass=regular-widthClass=regular">
+                                                <fontDescription key="fontDescription" name="AvenirLTStd-Book" family="Avenir LT Std" pointSize="20"/>
+                                            </variation>
+                                            <connections>
+                                                <action selector="ethnicityButtonPressed:" destination="-1" eventType="touchUpInside" id="fV8-PM-pOu"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qHH-ZN-J6P">
+                                            <rect key="frame" x="0.0" y="272" width="400" height="60"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <fontDescription key="fontDescription" name="AvenirLTStd-Book" family="Avenir LT Std" pointSize="16"/>
+                                            <state key="normal" title="HISPANIC">
+                                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <variation key="heightClass=regular-widthClass=regular">
+                                                <fontDescription key="fontDescription" name="AvenirLTStd-Book" family="Avenir LT Std" pointSize="20"/>
+                                            </variation>
+                                            <connections>
+                                                <action selector="ethnicityButtonPressed:" destination="-1" eventType="touchUpInside" id="3Fo-xJ-eFv"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k6a-Yg-LJQ">
+                                            <rect key="frame" x="0.0" y="340" width="400" height="60"/>
+                                            <color key="backgroundColor" red="0.4392156862745098" green="0.4392156862745098" blue="0.4392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" name="AvenirLTStd-Book" family="Avenir LT Std" pointSize="16"/>
+                                            <state key="normal" title="Cancel">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <variation key="heightClass=regular-widthClass=regular">
+                                                <fontDescription key="fontDescription" name="AvenirLTStd-Book" family="Avenir LT Std" pointSize="20"/>
+                                            </variation>
+                                            <connections>
+                                                <action selector="ethnicityButtonPressed:" destination="-1" eventType="touchUpInside" id="s8C-sn-GS1"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="250" id="AwS-Sf-bLU">
+                                            <variation key="heightClass=regular-widthClass=regular" constant="400"/>
+                                        </constraint>
+                                    </constraints>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="By5-6S-aS2" firstAttribute="centerY" secondItem="kGa-0s-zLv" secondAttribute="centerY" id="Ryz-V5-rCz"/>
+                                <constraint firstItem="By5-6S-aS2" firstAttribute="top" relation="greaterThanOrEqual" secondItem="kGa-0s-zLv" secondAttribute="top" constant="8" id="ekM-bC-2So"/>
+                                <constraint firstItem="By5-6S-aS2" firstAttribute="centerX" secondItem="kGa-0s-zLv" secondAttribute="centerX" id="hyJ-zg-uMQ"/>
+                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="By5-6S-aS2" secondAttribute="bottom" constant="8" id="jrA-SZ-dxa"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="zBc-9E-5wx" secondAttribute="trailing" id="A4b-GT-5yZ"/>
+                        <constraint firstItem="zBc-9E-5wx" firstAttribute="leading" secondItem="BXe-hu-cyJ" secondAttribute="leading" id="Dyh-8N-ofN"/>
+                        <constraint firstAttribute="trailing" secondItem="kGa-0s-zLv" secondAttribute="trailing" id="IHJ-ew-iVt"/>
+                        <constraint firstItem="kGa-0s-zLv" firstAttribute="leading" secondItem="BXe-hu-cyJ" secondAttribute="leading" id="JFc-lX-KSu"/>
+                        <constraint firstAttribute="bottom" secondItem="kGa-0s-zLv" secondAttribute="bottom" id="W24-hW-LRp"/>
+                        <constraint firstItem="zBc-9E-5wx" firstAttribute="top" secondItem="BXe-hu-cyJ" secondAttribute="top" id="bx8-mu-uuc"/>
+                        <constraint firstAttribute="width" secondItem="BXe-hu-cyJ" secondAttribute="height" multiplier="4:3" id="kPo-a0-Trg"/>
+                        <constraint firstItem="kGa-0s-zLv" firstAttribute="top" secondItem="zBc-9E-5wx" secondAttribute="bottom" id="xUg-15-HB4"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.0" alpha="0.65000000000000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="BXe-hu-cyJ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="1WX-XG-2I0"/>
+                <constraint firstItem="BXe-hu-cyJ" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="pvT-sW-yu1"/>
+                <constraint firstItem="BXe-hu-cyJ" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.8" id="qXY-7o-8Cl"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="153"/>
+        </view>
+    </objects>
+</document>

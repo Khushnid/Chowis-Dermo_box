@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="landscape" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AvenirLTStd-Book.ttf">
+            <string>AvenirLTStd-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SkinColorGroupViewController" customModule="Chowis_Analysis_Skin_2" customModuleProvider="target">
+            <connections>
+                <outlet property="cancelButton" destination="XmR-PJ-xzE" id="oba-ba-yij"/>
+                <outlet property="sg1Button" destination="un1-5K-Oo0" id="twD-kT-LaW"/>
+                <outlet property="sg2Button" destination="wra-dp-UBW" id="jtQ-1r-zkn"/>
+                <outlet property="sg3Button" destination="iy9-DU-8pH" id="wtz-7n-2mD"/>
+                <outlet property="sg4Button" destination="g1s-Ox-0UF" id="Vzi-EL-Euu"/>
+                <outlet property="sg5Button" destination="fSJ-jf-HaY" id="eL8-6C-L0R"/>
+                <outlet property="sg6Button" destination="qpD-Jb-3PG" id="PDX-LR-e9w"/>
+                <outlet property="skinColorGroupTitleLabel" destination="TYW-w2-aI4" id="fYf-ux-2vH"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SyV-PF-5iG">
+                    <rect key="frame" x="102.5" y="77" width="819" height="614"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wnF-oT-qS6">
+                            <rect key="frame" x="0.0" y="0.0" width="819" height="60"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SKIN COLOR GROUP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TYW-w2-aI4">
+                                    <rect key="frame" x="16" y="4" width="787" height="52"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                    <color key="textColor" red="1" green="0.82352941176470584" blue="0.25098039215686274" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                    <variation key="heightClass=regular-widthClass=regular">
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                                    </variation>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstItem="TYW-w2-aI4" firstAttribute="top" secondItem="wnF-oT-qS6" secondAttribute="top" constant="4" id="CjI-kD-qg9"/>
+                                <constraint firstAttribute="bottom" secondItem="TYW-w2-aI4" secondAttribute="bottom" constant="4" id="MlZ-av-7Jl"/>
+                                <constraint firstItem="TYW-w2-aI4" firstAttribute="leading" secondItem="wnF-oT-qS6" secondAttribute="leading" constant="16" id="Qmz-pk-2De"/>
+                                <constraint firstAttribute="trailing" secondItem="TYW-w2-aI4" secondAttribute="trailing" constant="16" id="g28-VO-uMR"/>
+                                <constraint firstAttribute="height" constant="50" id="o86-9l-Ucw">
+                                    <variation key="heightClass=regular-widthClass=regular" constant="60"/>
+                                </constraint>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Y2-SV-lzF">
+                            <rect key="frame" x="0.0" y="60" width="819" height="554"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="2Li-aq-tjK">
+                                    <rect key="frame" x="209.5" y="43" width="400" height="468"/>
+                                    <subviews>
+                                        <button opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="un1-5K-Oo0">
+                                            <rect key="frame" x="0.0" y="0.0" width="400" height="60"/>
+                                            <color key="backgroundColor" red="0.94901960780000005" green="0.82352941180000006" blue="0.74901960779999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="30" id="wVE-hN-lHP">
+                                                    <variation key="heightClass=regular-widthClass=regular" constant="60"/>
+                                                </constraint>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <state key="normal" title="SG1">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <state key="selected">
+                                                <color key="titleColor" red="1" green="0.40000000600000002" blue="0.044950638670000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="26"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <variation key="heightClass=regular-widthClass=regular">
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                            </variation>
+                                            <connections>
+                                                <action selector="skinColorButtonPressed:" destination="-1" eventType="touchUpInside" id="M99-vz-h7G"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wra-dp-UBW">
+                                            <rect key="frame" x="0.0" y="68" width="400" height="60"/>
+                                            <color key="backgroundColor" red="0.8980392157" green="0.73725490199999999" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <state key="normal" title="SG2">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <state key="selected">
+                                                <color key="titleColor" red="1" green="0.40000000600000002" blue="0.044950638670000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="26"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <variation key="heightClass=regular-widthClass=regular">
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                            </variation>
+                                            <connections>
+                                                <action selector="skinColorButtonPressed:" destination="-1" eventType="touchUpInside" id="V8e-NR-u3y"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iy9-DU-8pH">
+                                            <rect key="frame" x="0.0" y="136" width="400" height="60"/>
+                                            <color key="backgroundColor" red="0.80000000000000004" green="0.65098039220000004" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <state key="normal" title="SG3">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <state key="selected">
+                                                <color key="titleColor" red="1" green="0.40000000600000002" blue="0.044950638670000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="26"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <variation key="heightClass=regular-widthClass=regular">
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                            </variation>
+                                            <connections>
+                                                <action selector="skinColorButtonPressed:" destination="-1" eventType="touchUpInside" id="oVG-3D-Jg3"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g1s-Ox-0UF">
+                                            <rect key="frame" x="0.0" y="204" width="400" height="60"/>
+                                            <color key="backgroundColor" red="0.72941176470000002" green="0.54117647059999996" blue="0.43529411759999997" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <state key="normal" title="SG4">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <state key="selected">
+                                                <color key="titleColor" red="1" green="0.40000000600000002" blue="0.044950638670000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="26"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <variation key="heightClass=regular-widthClass=regular">
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                            </variation>
+                                            <connections>
+                                                <action selector="skinColorButtonPressed:" destination="-1" eventType="touchUpInside" id="8Zg-wu-WX4"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSJ-jf-HaY">
+                                            <rect key="frame" x="0.0" y="272" width="400" height="60"/>
+                                            <color key="backgroundColor" red="0.36862745099999999" green="0.17254901959999999" blue="0.090196078430000007" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <state key="normal" title="SG5">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <state key="selected">
+                                                <color key="titleColor" red="1" green="0.40000000600000002" blue="0.044950638670000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="26"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <variation key="heightClass=regular-widthClass=regular">
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                            </variation>
+                                            <connections>
+                                                <action selector="skinColorButtonPressed:" destination="-1" eventType="touchUpInside" id="lt2-Zf-nPx"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qpD-Jb-3PG">
+                                            <rect key="frame" x="0.0" y="340" width="400" height="60"/>
+                                            <color key="backgroundColor" red="0.20000000000000001" green="0.1215686275" blue="0.090196078430000007" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <state key="normal" title="SG6">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <state key="selected">
+                                                <color key="titleColor" red="1" green="0.40000000600000002" blue="0.044950638670000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="26"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <variation key="heightClass=regular-widthClass=regular">
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                            </variation>
+                                            <connections>
+                                                <action selector="skinColorButtonPressed:" destination="-1" eventType="touchUpInside" id="tgr-HW-JoM"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XmR-PJ-xzE">
+                                            <rect key="frame" x="0.0" y="408" width="400" height="60"/>
+                                            <color key="backgroundColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" name="AvenirLTStd-Book" family="Avenir LT Std" pointSize="16"/>
+                                            <state key="normal" title="Cancel">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <variation key="heightClass=regular-widthClass=regular">
+                                                <fontDescription key="fontDescription" name="AvenirLTStd-Book" family="Avenir LT Std" pointSize="20"/>
+                                            </variation>
+                                            <connections>
+                                                <action selector="skinColorButtonPressed:" destination="-1" eventType="touchUpInside" id="YFL-cR-DHP"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="250" id="TtF-tN-SiJ">
+                                            <variation key="heightClass=regular-widthClass=regular" constant="400"/>
+                                        </constraint>
+                                    </constraints>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="2Li-aq-tjK" firstAttribute="top" relation="greaterThanOrEqual" secondItem="2Y2-SV-lzF" secondAttribute="top" constant="8" id="Iz2-Xt-ma7"/>
+                                <constraint firstItem="2Li-aq-tjK" firstAttribute="centerX" secondItem="2Y2-SV-lzF" secondAttribute="centerX" id="bVp-J0-Ey0"/>
+                                <constraint firstItem="2Li-aq-tjK" firstAttribute="centerY" secondItem="2Y2-SV-lzF" secondAttribute="centerY" id="ffC-uM-lYD"/>
+                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="2Li-aq-tjK" secondAttribute="bottom" constant="8" id="z6h-tJ-1mK"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="wnF-oT-qS6" firstAttribute="leading" secondItem="SyV-PF-5iG" secondAttribute="leading" id="5FG-Az-QXr"/>
+                        <constraint firstItem="2Y2-SV-lzF" firstAttribute="leading" secondItem="SyV-PF-5iG" secondAttribute="leading" id="9Kn-Oe-yOO"/>
+                        <constraint firstItem="2Y2-SV-lzF" firstAttribute="top" secondItem="wnF-oT-qS6" secondAttribute="bottom" id="Vg6-ap-2Zc"/>
+                        <constraint firstAttribute="trailing" secondItem="wnF-oT-qS6" secondAttribute="trailing" id="fSv-fb-ad7"/>
+                        <constraint firstAttribute="bottom" secondItem="2Y2-SV-lzF" secondAttribute="bottom" id="lMv-YK-ujd"/>
+                        <constraint firstAttribute="trailing" secondItem="2Y2-SV-lzF" secondAttribute="trailing" id="pAH-fA-jdC"/>
+                        <constraint firstItem="wnF-oT-qS6" firstAttribute="top" secondItem="SyV-PF-5iG" secondAttribute="top" id="uCX-RN-MsH"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="SyV-PF-5iG" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="EJ7-xQ-3Wy"/>
+                <constraint firstItem="SyV-PF-5iG" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Nnx-ny-eoK"/>
+                <constraint firstItem="SyV-PF-5iG" firstAttribute="width" secondItem="SyV-PF-5iG" secondAttribute="height" multiplier="4:3" id="aGL-dB-ckj"/>
+                <constraint firstItem="SyV-PF-5iG" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.8" id="jzc-2l-wSh"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="154"/>
+        </view>
+    </objects>
+</document>

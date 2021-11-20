@@ -1,0 +1,219 @@
+/* 
+  Localizable.strings
+  Chowis Analysis Skin 2
+
+  Created by Bekzod Rakhmatov on 2020/09/12.
+  Copyright © 2020 Chowis Co Ltd. All rights reserved.
+*/
+
+//* Pdf result */
+"DIAGNOSTIC REPORT" = "DIAGNOSTIC REPORT";
+"Overall Results" = "Overall Results";
+"Captured Images" = "Captured Images";
+/* MainViewController */
+"STSong" = "STSong";
+"Camera Settings" = "Camera Settings";
+"Settings" = "Settings";
+"Language Settings" = "Language Settings";
+"ANALYSIS" = "ANALYSIS";
+"SETTINGS" = "SETTINGS";
+"Temperature" = "Temperature";
+"Very Cold" = "Very Cold";
+"Cold" = "Cold";
+"Cool" = "Cool";
+"Warm" = "Warm";
+"Hot" = "Hot";
+"Feeling Hot" = "Feeling Hot";
+"Very Hot" = "Very Hot";
+"Extremely Hot" = "Extremely Hot";
+"Location" = "Location";
+"Oil Care" = "Oil Care";
+"Humidity" = "Humidity";
+"Version:" = "Version:";
+/* SettingsViewController */
+"GENERAL OPTIONS" = "GENERAL OPTIONS";
+"CAMERA SETTINGS" = "CAMERA SETTINGS";
+"CHANGE LANGUAGE" = "CHANGE LANGUAGE";
+
+/* LanguageViewController */
+"LANGUAGE" = "LANGUAGE";
+"SAVE" = "SAVE";
+
+/* GeneralOptionsViewController */
+"Please enter phone number first!" = "Please enter phone number first!";
+"Sebum Mode" = "Sebum Mode";
+"Sebum (with Sebum indicator)" = "Sebum (with Sebum indicator)";
+"Full Facial Analysis" = "Full Facial Analysis";
+"Enable (Default)" = "Enable (Default)";
+"Auto Image Capture" = "Auto Image Capture";
+"Results Display" = "Results Display";
+"Analysis Results Review" = "Analysis Results Review";
+"It seems like your device is not connected to the phone!\nPlease go the Setting and connect device via Wi-Fi." = "It seems like your device is not connected to the phone!\nPlease go the Setting and connect device via Wi-Fi.";
+/* DiagnosisViewController */
+"Skin Concern" = "Skin Concern";
+"Skin Conditions" = "Skin Conditions";
+"Pores" = "Pores";
+"Spots" = "Spots";
+"Wrinkles" = "Wrinkles";
+"Impurities" = "Impurities";
+"Keratin" = "Keratin";
+"SKIN CONDITIONS" = "SKIN CONDITIONS";
+"T Zone" = "T Zone";
+"U Zone" = "U Zone";
+"High" = "High";
+"Sebum" = "Sebum";
+"Low" = "Low";
+"Dehydrated" = "Dehydrated";
+"Moisture" = "Moisture";
+"ANALYZE" = "ANALYZE";
+"DELETE" = "DELETE";
+
+/* AnalysisViewController */
+"COMPARE" = "COMPARE";
+"3D" = "3D";
+"Caution" = "Caution";
+"Results" = "Results";
+"Average" = "Average";
+
+/* ResultViewController */
+"Optimum" = "Optimum";
+"Pay attention to care" = "Pay attention to care";
+"Need to care" = "Need to care";
+"Intensive care needed" = "Intensive care needed";
+"SEND & CLOSE" = "SEND & CLOSE";
+
+/* CameraSettingsViewController */
+"OPTIC NUMBER" = "OPTIC NUMBER";
+/* Analysis */
+"Lack of sebum and moisture → More moisture and oil required" = "Lack of sebum and moisture → More moisture and oil required";
+"Lack of moisture → More moisture required" = "Lack of moisture → More moisture required";
+"Oily skin with lack of moisture → More moisture and oil control care required" = "Oily skin with lack of moisture → More moisture and oil control care required";
+"Very oily skin with lack of moisture → More moisture and intensive oil care required" = "Very oily skin with lack of moisture → More moisture and intensive oil care required";
+"Moisturized skin with lack of sebum → More oil required" = "Moisturized skin with lack of sebum → More oil required";
+"Well-moisturized skin with no shiny → Perfect skin" = "Well-moisturized skin with no shiny → Perfect skin";
+"Oily and moisturized skin → Oil control care required" = "Oily and moisturized skin → Oil control care required";
+"Very oily and moisturized skin → Intensive oil care required" = "Very oily and moisturized skin → Intensive oil care required";
+"Very dry" = "Very dry";
+"Dry" = "Dry";
+"Normal" = "Normal";
+"Oily" = "Oily";
+"Very Oily" = "Very Oily";
+"Combination" = "Combination";
+"Moisturized" = "Moisturized";
+"Slightly dehydrated" = "Slightly dehydrated";
+"Very dehydrated" = "Very dehydrated";
+"Excellent" = "Excellent";
+"Slightly dilated" = "Slightly dilated";
+"Dilated" = "Dilated";
+"Very dilated" = "Very dilated";
+"Good" = "Good";
+"Few" = "Few";
+"Some" = "Some";
+"Fine lines" = "Fine lines";
+"Expression lines" = "Expression lines";
+"Deep wrinkles" = "Deep wrinkles";
+
+"Enter Optic Number" = "Enter Optic Number";
+"DEVICE INITIALIZATION" = "DEVICE INITIALIZATION";
+"SUBMIT" = "SUBMIT";
+"CANCEL" = "CANCEL";
+"OK" = "OK";
+"BIRTHDAY" = "BIRTHDAY";
+"SAVE" = "SAVE";
+"ETHNICITY" = "ETHNICITY";
+"CAUCASIAN" = "CAUCASIAN";
+"ASIAN EAST" = "ASIAN EAST";
+"DARK SKINS" = "DARK SKINS";
+"HISPANIC" = "HISPANIC";
+"S/E ASIAN" = "S/E ASIAN";
+"SKIN COLOR GROUP" = "SKIN COLOR GROUP";
+"SG1" = "SG1";
+"SG2" = "SG2";
+"SG3" = "SG3";
+"SG4" = "SG4";
+"SG5" = "SG5";
+"SG6" = "SG6";
+
+"How much water do you drink these days?" = "How much water do you drink these days?";
+"8 or more cups" = "8 or more cups";
+"4-6 cups" = "4-6 cups";
+"3 or less cups" = "3 or less cups";
+"How much coffee do you drink these days?" = "How much coffee do you drink these days?";
+"1 cup or less" = "1 cup or less";
+"2-3 cups" = "2-3 cups";
+"4 or more cups" = "4 or more cups";
+"Do you wear sun-protection products?" = "Do you wear sun-protection products?";
+"Yes" = "Yes";
+"Yes, but not always" = "Yes, but not always";
+"No" = "No";
+"How many times a day do you clean and moisturize your skin?" = "How many times a day do you clean and moisturize your skin?";
+"2 times a day" = "2 times a day";
+"One time a day" = "One time a day";
+"Not regular" = "Not regular";
+"Do you have evenly toned skin?" = "Do you have evenly toned skin?";
+"Yes" = "Yes";
+"Yes, but I have some pigmentation (spots)" = "Yes, but I have some pigmentation (spots)";
+"No, I have spots and dark circles" = "No, I have spots and dark circles";
+"Over the last month, how stinging, itchy, sore, or painful has your skin been?" = "Over the last month, how stinging, itchy, sore, or painful has your skin been?";
+"Over the last month, how embarrassed or self-conscious have you been because of your skin?" = "Over the last month, how embarrassed or self-conscious have you been because of your skin?";
+"Over the last month, how much has your skin prevented you from studying or working at home?" = "Over the last month, how much has your skin prevented you from studying or working at home?";
+"Over the last month, how much has the sensitivity of your skin influenced the clothes you wear?" = "Over the last month, how much has the sensitivity of your skin influenced the clothes you wear?";
+"Over the last month, how much has your skin affected any social or leisure or sports activities?" = "Over the last month, how much has your skin affected any social or leisure or sports activities?";
+"Over the last month, how much time and effort has your skin treatment taken?" = "Over the last month, how much time and effort has your skin treatment taken?";
+"Do you experience skin issues during the environment change?" = "Do you experience skin issues during the environment change?";
+"Do you experience skin issues when you change your skin products?" = "Do you experience skin issues when you change your skin; products?";
+"Very much" = "Very much";
+"A lot" = "A lot";
+"A little" = "A little";
+"Not at all" = "Not at all";
+"Device Paring" = "Device Paring";
+"Access Point" = "Access Point";
+"Good skin with normal pores" = "Good skin with normal pores";
+"Good skin with few pores" = "Good skin with few pores";
+"Slightly large pores" = "Slightly large pores";
+"Slightly large pores on oily skin" = "Slightly large pores on oily skin";
+"Large pores" = "Large pores";
+"Large pores" = "Large pores";
+"Very large pores" = "Very large pores";
+"Very large pores" = "Very large pores";
+"Good skin with no spots or pigmentation" = "Good skin with no spots or pigmentation";
+"Good skin with light pigmentation" = "Good skin with light pigmentation";
+"Light pigmentation on the skin" = "Light pigmentation on the skin";
+"Light pigmentation on the skin" = "Light pigmentation on the skin";
+"Pigmentation is being spread on the skin" = "Pigmentation is being spread on the skin";
+"Pigmentation is being spread on the skin" = "Pigmentation is being spread on the skin";
+"Dark pigmentation spread on the skin" = "Dark pigmentation spread on the skin";
+"Dark pigmentation spread on the skin" = "Dark pigmentation spread on the skin";
+"Clean skin with no wrinkles" = "Clean skin with no wrinkles";
+"Few fine wrinkles" = "Few fine wrinkles";
+"Fine wrinkles" = "Fine wrinkles";
+"Fine wrinkles" = "Fine wrinkles";
+"Fine wrinkles" = "Fine wrinkles";
+"Deep wrinkles" = "Deep wrinkles";
+"Deep wrinkles" = "Deep wrinkles";
+"Deep wrinkles and fine wrinkles" = "Deep wrinkles and fine wrinkles";
+"No impurities and porphyrin" = "No impurities and porphyrin";
+"A few small impurities in pores" = "A few small impurities in pores";
+"A few impurities and porphyrins" = "A few impurities and porphyrins";
+"Large impurities in pores" = "Large impurities in pores";
+"A lot of impurities spread widely" = "A lot of impurities spread widely";
+"A lot of porphyrins" = "A lot of porphyrins";
+"A lot of impurities spread widely" = "A lot of impurities spread widely";
+"A lot of impurities and porphyrins" = "A lot of impurities and porphyrins";
+"No keratin on the skin" = "No keratin on the skin";
+"Few keratin on the skin" = "Few keratin on the skin";
+"Few keratin on the skin" = "Few keratin on the skin";
+"Few keratin spread on the skin" = "Few keratin spread on the skin";
+"Keratin spread on the skin" = "Keratin spread on the skin";
+"Keratin spread on the skin" = "Keratin spread on the skin";
+"A lot of keratin on the skin" = "A lot of keratin on the skin";
+"A lot of keratin on the skin" = "A lot of keratin on the skin";
+
+/*Internet connection*/
+"You are not connected to the device. Please connect to your device to continue analysis" = "You are not connected to the device. Please connect to your device to continue analysis";
+"Cancel" = "Cancel";
+"Connect" = "Connect";
+"NOTICE!" = "NOTICE!";
+"(Same as yesterday)" = "(Same as yesterday)";
+"City" = "City";
+"Would you like to send results to the customer?" = "Would you like to send results to the customer?";

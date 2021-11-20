@@ -1,0 +1,298 @@
+/* 
+  Localizable.strings
+  Chowis Analysis Skin 2
+
+  Created by Bekzod Rakhmatov on 2020/09/12.
+  Copyright © 2020 Chowis Co Ltd. All rights reserved.
+*/
+/* pdf results*/
+"DIAGNOSTIC REPORT" = "דוח אבחון";
+"Overall Results" = "תוצאות כלליות";
+"Captured Images" = "תמונות שצולמו";
+
+/* MainViewController */
+"STSong" = "Arimo";
+"Please enter phone number first!" = "אנא הכנס מספר טלפון ראשון!";
+"Settings" = "הגדרות";
+"SETTINGS" = "הגדרות";
+"Language Settings" = "הגדרות שפה";
+"ANALYSIS" = "אבחון עור";
+"Temperature" = "החלפת שפה";
+"Very Cold" = "קר מאוד";
+"Cold" = "קר";
+"Cool" = "קריר";
+"Warm" = "חמים";
+"Hot" = "חם";
+"Feeling Hot" = "מרגיש חם";
+"Very Hot" = "חם מאוד";
+"Extremely Hot" = "חום קיצוני";
+"Location" = "מיקום";
+"Oil Care" = "Oil Care";
+"Humidity" = "לחות";
+"Version:" = "גירסה:";
+
+/* SettingsViewController */
+"GENERAL OPTIONS" = "אפשרויות כלליות";
+"CAMERA SETTINGS" = "הגדרות מצלמה";
+"CHANGE LANGUAGE" = "שנה שפה";
+
+/* LanguageViewController */
+"SAVE" = "שמירה";
+
+/* GeneralOptionsViewController */
+"Sebum Mode" = "אבחון סבום";
+"Sebum (with Sebum indicator)" = "אבחון סבום (עם דוגם סבום)";
+"Full Facial Analysis" = "ניתוח פנים מלא";
+"Enable (Default)" = "הפעל (ברירת מחדל)";
+"Auto Image Capture" = "לכידת תמונות אוטומטית";
+"Results Display" = "תצוגת תוצאות";
+"Analysis Results Review" = "סקירת תוצאות ניתוח";
+
+/* DiagnosisViewController */
+"Skin Concern" = "דאגה לעור";
+"Skin Conditions" = "מצבי עור";
+"Pores" = "נקבוביות";
+"Spots" = "כתמים";
+"Wrinkles" = "קמטים";
+"Impurities" = "פעילות חיידקית";
+"Keratin" = "התקרנות";
+"SKIN CONDITIONS" = "מצבי עור";
+"T Zone" = "אזור המצח";
+"U Zone" = "אזור הלחיים";
+"Sebum" = "סבום";
+"Low" = "מעט";
+"Dehydrated" = "מיובש";
+"Moisture" = "לחות";
+"ANALYZE" = "ניתוח נתונים";
+"DELETE" = "מחיקה";
+/* AnalysisViewController */
+"Compare" = "השוואה";
+"COMPARE" = "השוואה";
+"3D" = "3D";
+"Caution" = "אזהרה";
+"Results" = "תוצאות";
+"Average" = "ממוצעת";
+
+/* ResultViewController */
+"Optimum" = "אופטימלי";
+"Pay attention to care" = "כדאי לבחון טיפול";
+"Need to care" = "נדרש טיפול";
+"Intensive care needed" = "נדרש טיפול אינטנסיבי";
+"Send" = "לִשְׁלוֹחַ";
+"Would you like to send the results\n to the costumer?" = "האם ברצונך לשלוח את התוצאות\n ללקוח/ה?";
+
+/* CameraSettingsViewController */
+"OPTIC NUMBER" = "מספר אופטי";
+"SERIAL NUMBER" = "מספר סידורי";
+
+/* Analysis */
+"Lack of sebum and moisture → More moisture and oil required" = "חוסר סבום ולחות ← דרושה תוספת לחות ושומן";
+"Lack of moisture → More moisture required" = "חוסר לחות ← דרושה תוספת לחות";
+"Oily skin with lack of moisture → More moisture and oil control care required" = "עור שמנוני וחסר לחות  ← דרושים תוספת לחות וטיפול לאיזון הסבום";
+"Very oily skin with lack of moisture → More moisture and intensive oil care required" = "עור שמנוני מאוד וחסר לחות  ← דרושים תוספת לחות וטיפול אינטנסיבי לאיזון הסבום";
+"Moisturized skin with lack of sebum → More oil required" = "חוסר סבום בעור רווי לחות ← דרוש טיפול לאיזון הסבום";
+"Well-moisturized skin with no shiny → Perfect skin" = "עור רווי לחות והפרשת סבום תקינה ← עור מושלם";
+"Oily and moisturized skin → Oil control care required" = "עור שמנוני ורווי לחות  ← דרוש טיפול לאיזון הסבום";
+"Very oily and moisturized skin → Intensive oil care required" = "עור שמנוני מאוד ורווי לחות  ← דרוש טיפול אינטנסיבי לאיזון הסבום";
+"Moisturized" = "רווי לחות";
+"Normal" = "תקין";
+"Slightly dehydrated" = "מיובש מעט";
+"Dehydrated" = "מיובש";
+"Very dehydrated" = "מיובש מאוד";
+"Dehydrated" = "מיובש";
+"Normal" = "תקין";
+"Excellent" ="מצוין";
+"Slightly dilated" = "מעט מורחבות";
+"Dilated" = "מורחבות";
+"Very dilated" = "מורחבות מאוד";
+"Good" = "תקין";
+"Few" =  "מעט מאוד";
+"Some" = "מעט";
+"High" = "הרבה";
+"Good" = "תקין";
+"Fine lines" = "קמטוטים";
+"Expression lines" = "קמטי הבעה";
+"Deep wrinkles" = "קמטים עמוקים";
+"Good" = "תקין";
+"Few" = "מעט מאוד";
+"Some" = "מעט";
+"Very dry" = "יבש מאוד";
+"Dry" = "יבש";
+"Oily" = "שמנוני";
+"Very Oily" = "שמנוני מאוד";
+"Combination" = "מעורב";
+"Fine lines" = "קמטוטים";
+"Expression lines" = "קמטי הבעה";
+"Deep wrinkles" = "קמטים עמוקים";
+"Enter Optic Number" = "הזן מספר אופטי";
+"Device Initialization" = "הפעלת מכשיר";
+"SUBMIT" = "שליחה";
+"CANCEL" = "לְבַטֵל";
+"OK" = "אישור";
+"BIRTHDAY" = "יום הולדת";
+"SAVE" = "שמירה";
+"ETHNICITY" = "ארץ מוצא";
+"CAUCASIAN" = "אירופה";
+"ASIAN EAST" = "מזרח אסיה";
+"DARK SKINS" = "אפריקה (למעט צפון אפריקה)";
+"HISPANIC" = "דרום אמריקה";
+"S/E ASIAN" = "דרום מזרח אסיה";
+"SKIN COLOR GROUP" = "קבוצת צבעי עור";
+"SG1" = "SG1";
+"SG2" = "SG2";
+"SG3" = "SG3";
+"SG4" = "SG4";
+"SG5" = "SG5";
+"SG6" = "SG6";
+
+"How much water do you drink these days?" = "How much water do you drink these days?";
+"8 or more cups" = "8 or more cups";
+"4-6 cups" = "4-6 cups";
+"3 or less cups" = "3 or less cups";
+"How much coffee do you drink these days?" = "How much coffee do you drink these days?";
+"1 cup or less" = "1 cup or less";
+"2-3 cups" = "2-3 cups";
+"4 or more cups" = "4 or more cups";
+"Do you wear sun-protection products?" = "Do you wear sun-protection products?";
+"Yes" = "כן";
+"Yes, but not always" = "Yes, but not always";
+"No" = "לא";
+"How many times a day do you clean and moisturize your skin?" = "How many times a day do you clean and moisturize your skin?";
+"2 times a day" = "2 times a day";
+"One time a day" = "One time a day";
+"Not regular" = "Not regular";
+"Do you have evenly toned skin?" = "Do you have evenly toned skin?";
+"Yes, but I have some pigmentation (spots)" = "Yes, but I have some pigmentation (spots)";
+"No, I have spots and dark circles" = "No, I have spots and dark circles";
+"Over the last month, how stinging, itchy, sore, or painful has your skin been?" = "Over the last month, how stinging, itchy, sore, or painful has your skin been?";
+"Over the last month, how embarrassed or self-conscious have you been because of your skin?" = "Over the last month, how embarrassed or self-conscious have you been because of your skin?";
+"Over the last month, how much has your skin prevented you from studying or working at home?" = "Over the last month, how much has your skin prevented you from studying or working at home?";
+"Over the last month, how much has the sensitivity of your skin influenced the clothes you wear?" = "Over the last month, how much has the sensitivity of your skin influenced the clothes you wear?";
+"Over the last month, how much has your skin affected any social or leisure or sports activities?" = "Over the last month, how much has your skin affected any social or leisure or sports activities?";
+"Over the last month, how much time and effort has your skin treatment taken?" = "Over the last month, how much time and effort has your skin treatment taken?";
+"Do you experience skin issues during the environment change?" = "Do you experience skin issues during the environment change?";
+"Do you experience skin issues when you change your skin products?" = "Do you experience skin issues when you change your skin; products?";
+"A little" = "קצת";
+"Access Point" = "נקודת גישה";
+"Good skin with normal pores" = "עור בריא עם נקבוביות תקינות";
+"Good skin with few pores" = "עור בריא עם מעט נקבוביות";
+"Slightly large pores" = "נקבוביות מורחבות מעט";
+"Slightly large pores on oily skin" = "נקבוביות מורחבות מעט בעור שמנוני";
+"Large pores" = "נקבוביות מורחבות";
+"Very large pores" = "נקבוביות מורחבות מאוד";
+"Good skin with no spots or pigmentation" = "עור בריא ללא כתמים או פיגמנטציה";
+"Good skin with light pigmentation" = "עור בריא עם פיגמנטציה בהירה";
+"Light pigmentation on the skin" = "פיגמנטציה בהירה על העור";
+"Pigmentation is being spread on the skin" = "פיגמנטציה מפושטת על העור";
+"Dark pigmentation spread on the skin" = "פיגמנטציה כהה מפושטת על העור";
+"Clean skin with no wrinkles" = "עור בריא ללא קמטים";
+"Few fine wrinkles" = "קמטים עדינים ומעטים";
+"Fine wrinkles" = "קמטים עדינים";
+"Deep wrinkles" = "קמטים עמוקים";
+"Deep wrinkles and fine wrinkles" = "קמטים עמוקים וגם קמטים עדינים";
+"No impurities and porphyrin" = "ללא פעילות חיידקית או פורפירין";
+"A few small impurities in pores" = "מעט פעילות חיידקית בנקבוביות";
+"A few impurities and porphyrins" = "מעט פעילות חיידקית ופורפירין";
+"Large impurities in pores" = "פעילות חיידקית רבה בנקבוביות";
+"A lot of impurities spread widely" = "פעילות חיידקית רבה ומפושטת";
+"A lot of porphyrins" = "פורפירין רב";
+"A lot of impurities spread widely" = "פעילות חיידקית רבה ומפושטת מאוד";
+"A lot of impurities and porphyrins" = "פעילות חיידקית רבה ופורפירין";
+"No keratin on the skin" = "אין התקרנות של העור";
+"Few keratin on the skin" = "התקרנות מועטה של העור";
+"Few keratin spread on the skin" = "התקרנות מועטה מפוזרת על העור";
+"Keratin spread on the skin" = "התקרנות מפוזרת על העור";
+"A lot of keratin on the skin" = "התקרנות מוגברת של העור";
+
+/* Not localized yet */
+"Would you like to send results to the customer?" = "האם ברצונך לשלוח את התוצאות\n ללקוח/ה?";
+"(Same as yesterday)" = "כמו אתמול";
+"City" = "ישוב";
+//"Not at all" = "Not at all";
+"Device Paring" = "Device Paring";
+"Very much" = "Very much";
+//"A lot" = "A lot";
+"Succeed to connect" = "הצטרפת בהצלחה.";
+"T Zone Moisture" = "אזור המצח";
+//"Step 1: Place Moisture Sensor on the forehead and press capture button on the camera device." = "Step 1: Place Moisture Sensor on the forehead and press capture button on the camera device.";
+//"Step 1:" = "Step 1:";
+//"Step 1: Put the pink side of sebum paper on cheeks for 3 seconds." = "Step 1: Put the pink side of sebum paper on cheeks for 3 seconds.";
+//"Position camera on cheeks and press capture button on the camera device. Ensure that camera is fully and lightly touches the skin" = "Position camera on cheeks and press capture button on the camera device. Ensure that camera is fully and lightly touches the skin";
+//"Position camera on wrinkles and capture. Ensure that camera is fully and lightly touches the skin" = "Position camera on wrinkles and capture. Ensure that camera is fully and lightly touches the skin";
+//"Step 2: Place black film on the top of camera and press capture. Make sure optical lens cover black film fully." = "Step 2: Place black film on the top of camera and press capture. Make sure optical lens cover black film fully.";
+"U Zone Moisture" = "אזור הלחיים";
+//"Step 2: Place Moisture Sensor on the Cheeks and press capture button on the camera device." = "Step 2: Place Moisture Sensor on the Cheeks and press capture button on the camera device.";
+"You are not connected to the device. Please connect to your device to continue analysis" = "אינך מחוברת למכשיר. \n נא התחברי למכשיר \n כדי להמשיך באבחון העור.";
+//"It seems like you are not connected to the internet!\nPlease go to the Setting and connect to the Internet." = "It seems like you are not connected to the internet!\nPlease go to the Setting and connect to the Internet.";
+//"It seems like your device is not connected to the phone!\nPlease go the Setting and connect device via Wi-Fi." = "It seems like your device is not connected to the phone!\nPlease go the Setting and connect device via Wi-Fi.";
+"Do you want to analyze the taken measurement?" = "האם ברצונך לשלוח את התוצאות\n ללקוח/ה?";
+"Analyze All" = "נתח את כל מדדי האבחון";
+"< Previous" = "אחורה";
+"Next >" = "הבא";
+//tap for guideline" = "tap for guideline";
+"RESULT" = "תוצאות";
+"Compare" = "השוואה";
+//"Failed to set mode" = "Failed to set mode";
+"There is no handset connected" = "אינך מחוברת למכשיר. \n נא התחברי למכשיר \n כדי להמשיך באבחון העור. ";
+//"Failed to play the video player." = "Failed to play the video player.";
+
+/* pdf results (not sure) */
+"DIAGNOSTIC REPORT" = "דוח אבחון";
+"Overall Results" = "תוצאות כלליות";
+"Captured Images" = "תמונות שצולמו";
+"Close" = "סגירה";
+"CLOSE" = "סגירה";
+/* Internet Connection */
+"Connect" = "קישור";
+"Cancel" = "ביטול";
+"NOTICE!" = "הודעה!";
+
+/* Gender VC */
+"GENDER" = "מין";
+
+/* Settings View Controller */
+"Camera Setup" = "הגדרות מצלמה";
+"Wi-Fi Frequency" = "עוצמת Wi-Fi";
+"Camera Settings" = "הגדרות מצלמה";
+"2G (Default)" = "2G(ברירת מחדל)";
+"The optic number is not valid." = "* המספר האופטי אינו תקין.";
+
+/*Agreement View Controller*/
+"This feature provides additional guarantee that the device and program are synchronized and would provide accurate analysis results. The need for patients\' details are used only for the purposes of conducting a digital skin analysis and for sharing the skin analysis results with the patient." = "תהליך זה נועד להבטיח שהאפליקציה מסונכרנת עם המכשיר הנכון ושיבוצע אבחון עור המבוסס על נתונים נכונים. נתוני הלקוח/ה משמשים באפליקציה אך ורק לצורך ביצוע אבחון העור הממוחשב ולצורך שיתוף תוצאות אבחון העור עם הלקוח/ה.";
+
+"Initial Device Activation" = "הפעלה ראשונה של המכשיר";
+"I Agree and Understand" = "הבנתי ואני מסכימה";
+"Not now" = "לא עכשיו";
+
+/* Device Activation View Controller */
+"Input Device Details" = "הזנת פרטי המכשיר";
+"Enter Email" = " נא הזיני כתובת דואל";
+"Serial Number" = "מספר סידורי";
+"Back" = "אחורה";
+
+/*Scan QR View*/
+"Scan QR Code" = "סריקת קוד QR";
+"Initial Device Activation" = "הפעלה ראשונה של המכשיר";
+"Manual Input" = "הזנה ידנית";
+
+/* Phone number view Controller */
+"Login" = "התחברות";
+"Input Customer Telephone Number" = "נא להזין מספר טלפון נייד של הלקוח/ה";
+"Enter Mobile Number" = "נא להזין מספר טלפון נייד";
+"C.Code" = "מיקוד";
+
+/* Customer Info View Controller */
+"Customer Details" = "פרטי לקוח/ה";
+
+/*Internet Connection Pop up*/
+"Please select the internet connection\n you wish to use:" = "נא לבחור את חיבור האינטרנט\n שבו ברצונך להשתמש:";
+"Wi-Fi Router Internet Connection" = "חיבור אינטרנט באמצעות נתב Wi-Fi";
+"Mobile Phone Data Connection" = "חיבור אינטרנט באמצעות רשת הטלפון";
+
+/*Loading View Controller*/
+"Retrieving data..." = "משחזר נתונים...";
+"Please wait..." = "נא להמתין...";
+
+"Sending Failed" = "השליחה נכשלה";
+"Successfully Sent" = "נשלח בהצלחה";
+"RETRY" = "נסה שוב";

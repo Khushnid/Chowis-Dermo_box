@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="landscape" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AvenirLTStd-Book.ttf">
+            <string>AvenirLTStd-Book</string>
+        </array>
+        <array key="Segoe UI.ttf">
+            <string>SegoeUI</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomerInfoViewController" customModule="Chowis_Analysis_Skin_2" customModuleProvider="target">
+            <connections>
+                <outlet property="birthDateTextField" destination="OAL-Sn-LbH" id="nhp-17-e6l"/>
+                <outlet property="emailTextField" destination="b6Z-qa-ycW" id="gr4-8b-yRW"/>
+                <outlet property="nameTextField" destination="oFw-qa-KK3" id="iFf-dB-QU2"/>
+                <outlet property="phoneTextField" destination="aaD-PN-725" id="zg7-A4-KDR"/>
+                <outlet property="submitButton" destination="RoD-FZ-f4Z" id="Nrb-yO-1AZ"/>
+                <outlet property="titleLabel" destination="2ui-nH-uBi" id="YCd-vd-OSr"/>
+                <outlet property="view" destination="YcI-Gg-Qc8" id="QyC-3s-IOz"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="YcI-Gg-Qc8" customClass="UIControl">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jPr-Za-EBh" customClass="UIControl">
+                    <rect key="frame" x="143.5" y="77" width="737" height="614"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pQj-5z-NJj">
+                            <rect key="frame" x="0.0" y="0.0" width="737" height="60"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Customer Details" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ui-nH-uBi">
+                                    <rect key="frame" x="16" y="4" width="705" height="52"/>
+                                    <fontDescription key="fontDescription" name="AvenirLTStd-Book" family="Avenir LT Std" pointSize="25"/>
+                                    <color key="textColor" red="1" green="0.82352941180000006" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="highlightedColor" red="1" green="0.82352941180000006" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <variation key="heightClass=regular-widthClass=regular">
+                                        <fontDescription key="fontDescription" name="AvenirLTStd-Book" family="Avenir LT Std" pointSize="25"/>
+                                    </variation>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="0.20392156859999999" green="0.20392156859999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="2ui-nH-uBi" secondAttribute="bottom" constant="4" id="XoI-V5-dIK"/>
+                                <constraint firstItem="2ui-nH-uBi" firstAttribute="top" secondItem="pQj-5z-NJj" secondAttribute="top" constant="4" id="daP-We-gdx"/>
+                                <constraint firstAttribute="trailing" secondItem="2ui-nH-uBi" secondAttribute="trailing" constant="16" id="iWS-Jj-MDX"/>
+                                <constraint firstItem="2ui-nH-uBi" firstAttribute="leading" secondItem="pQj-5z-NJj" secondAttribute="leading" constant="16" id="lY8-SU-7Fj"/>
+                                <constraint firstAttribute="height" constant="60" id="ry2-Lo-YQh"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iqx-IB-jni" customClass="UIControl">
+                            <rect key="frame" x="16" y="68" width="705" height="462"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="gXS-c0-bIx">
+                                    <rect key="frame" x="0.0" y="87" width="705" height="288"/>
+                                    <subviews>
+                                        <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter name" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oFw-qa-KK3">
+                                            <rect key="frame" x="0.0" y="0.0" width="705" height="60"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="30" id="agP-5d-kCb">
+                                                    <variation key="heightClass=regular-widthClass=regular" constant="60"/>
+                                                </constraint>
+                                            </constraints>
+                                            <color key="textColor" red="0.56078431370000004" green="0.56078431370000004" blue="0.56078431370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <fontDescription key="fontDescription" name="SegoeUI" family="Segoe UI" pointSize="18"/>
+                                            <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                            <variation key="heightClass=regular-widthClass=regular">
+                                                <fontDescription key="fontDescription" name="SegoeUI" family="Segoe UI" pointSize="18"/>
+                                            </variation>
+                                        </textField>
+                                        <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Choose birth date" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OAL-Sn-LbH">
+                                            <rect key="frame" x="0.0" y="76" width="705" height="60"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="30" id="Pji-GT-LTV">
+                                                    <variation key="heightClass=regular-widthClass=regular" constant="60"/>
+                                                </constraint>
+                                            </constraints>
+                                            <color key="textColor" red="0.56078431370000004" green="0.56078431370000004" blue="0.56078431370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <fontDescription key="fontDescription" name="SegoeUI" family="Segoe UI" pointSize="18"/>
+                                            <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                            <variation key="heightClass=regular-widthClass=regular">
+                                                <fontDescription key="fontDescription" name="SegoeUI" family="Segoe UI" pointSize="18"/>
+                                            </variation>
+                                        </textField>
+                                        <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Telephone number" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aaD-PN-725">
+                                            <rect key="frame" x="0.0" y="152" width="705" height="60"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="30" id="5YC-a0-6Wx">
+                                                    <variation key="heightClass=regular-widthClass=regular" constant="60"/>
+                                                </constraint>
+                                            </constraints>
+                                            <color key="textColor" red="0.56078431370000004" green="0.56078431370000004" blue="0.56078431370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <fontDescription key="fontDescription" name="SegoeUI" family="Segoe UI" pointSize="18"/>
+                                            <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                            <variation key="heightClass=regular-widthClass=regular">
+                                                <fontDescription key="fontDescription" name="SegoeUI" family="Segoe UI" pointSize="18"/>
+                                            </variation>
+                                        </textField>
+                                        <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email Password" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b6Z-qa-ycW">
+                                            <rect key="frame" x="0.0" y="228" width="705" height="60"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="30" id="jaa-pG-wAl">
+                                                    <variation key="heightClass=regular-widthClass=regular" constant="60"/>
+                                                </constraint>
+                                            </constraints>
+                                            <color key="textColor" red="0.56078431370000004" green="0.56078431370000004" blue="0.56078431370000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <fontDescription key="fontDescription" name="SegoeUI" family="Segoe UI" pointSize="18"/>
+                                            <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="phonePad" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                            <variation key="heightClass=regular-widthClass=regular">
+                                                <fontDescription key="fontDescription" name="SegoeUI" family="Segoe UI" pointSize="18"/>
+                                            </variation>
+                                        </textField>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <variation key="heightClass=regular-widthClass=regular" spacing="16"/>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="gXS-c0-bIx" secondAttribute="bottom" constant="8" id="1lv-mo-xok">
+                                    <variation key="heightClass=regular-widthClass=regular" constant="16"/>
+                                </constraint>
+                                <constraint firstAttribute="trailing" secondItem="gXS-c0-bIx" secondAttribute="trailing" id="8TX-9E-cRY"/>
+                                <constraint firstItem="gXS-c0-bIx" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Iqx-IB-jni" secondAttribute="top" constant="8" id="Xko-JO-caf">
+                                    <variation key="heightClass=regular-widthClass=regular" constant="16"/>
+                                </constraint>
+                                <constraint firstItem="gXS-c0-bIx" firstAttribute="leading" secondItem="Iqx-IB-jni" secondAttribute="leading" id="hZq-5Z-yCS"/>
+                                <constraint firstItem="gXS-c0-bIx" firstAttribute="centerY" secondItem="Iqx-IB-jni" secondAttribute="centerY" id="kbG-fe-o6w"/>
+                            </constraints>
+                        </view>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="gIu-8c-aM7">
+                            <rect key="frame" x="16" y="538" width="705" height="60"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RoD-FZ-f4Z">
+                                    <rect key="frame" x="0.0" y="0.0" width="705" height="60"/>
+                                    <color key="backgroundColor" red="0.38431372549999998" green="0.61568627450000002" blue="0.53725490200000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                    <state key="normal" title="OK">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <variation key="heightClass=regular-widthClass=regular">
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                    </variation>
+                                    <connections>
+                                        <action selector="submitPressed:" destination="-1" eventType="touchUpInside" id="kuI-xf-Sab"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="Z3V-TA-4hM">
+                                    <variation key="heightClass=compact" constant="30"/>
+                                </constraint>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="gIu-8c-aM7" firstAttribute="leading" secondItem="jPr-Za-EBh" secondAttribute="leading" constant="16" id="5Xx-od-eXc"/>
+                        <constraint firstAttribute="trailing" secondItem="pQj-5z-NJj" secondAttribute="trailing" id="Aik-nu-ZS1"/>
+                        <constraint firstAttribute="bottom" secondItem="gIu-8c-aM7" secondAttribute="bottom" constant="16" id="HOE-vE-POr"/>
+                        <constraint firstItem="Iqx-IB-jni" firstAttribute="leading" secondItem="gIu-8c-aM7" secondAttribute="leading" id="Isy-i4-0VY"/>
+                        <constraint firstItem="pQj-5z-NJj" firstAttribute="top" secondItem="jPr-Za-EBh" secondAttribute="top" id="Kl1-4I-f3c"/>
+                        <constraint firstItem="Iqx-IB-jni" firstAttribute="trailing" secondItem="gIu-8c-aM7" secondAttribute="trailing" id="MVZ-6o-x38"/>
+                        <constraint firstItem="gIu-8c-aM7" firstAttribute="top" secondItem="Iqx-IB-jni" secondAttribute="bottom" constant="8" id="SXe-l1-dMH"/>
+                        <constraint firstItem="Iqx-IB-jni" firstAttribute="top" secondItem="pQj-5z-NJj" secondAttribute="bottom" constant="8" id="hdV-j5-JGy"/>
+                        <constraint firstItem="gIu-8c-aM7" firstAttribute="centerX" secondItem="jPr-Za-EBh" secondAttribute="centerX" id="iCO-ad-9MI"/>
+                        <constraint firstAttribute="width" secondItem="jPr-Za-EBh" secondAttribute="height" multiplier="6:5" id="su6-oU-x3M"/>
+                        <constraint firstItem="pQj-5z-NJj" firstAttribute="leading" secondItem="jPr-Za-EBh" secondAttribute="leading" id="xof-gs-jWh"/>
+                        <constraint firstAttribute="trailing" secondItem="gIu-8c-aM7" secondAttribute="trailing" constant="16" id="z1v-gB-6Qj"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="RmV-Xx-edF"/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.65000000000000002" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="jPr-Za-EBh" firstAttribute="centerX" secondItem="YcI-Gg-Qc8" secondAttribute="centerX" id="AsK-oI-c1b"/>
+                <constraint firstItem="jPr-Za-EBh" firstAttribute="centerY" secondItem="YcI-Gg-Qc8" secondAttribute="centerY" id="FGa-cl-B5h"/>
+                <constraint firstItem="jPr-Za-EBh" firstAttribute="height" secondItem="YcI-Gg-Qc8" secondAttribute="height" multiplier="0.8" id="gA8-yX-Fcb"/>
+            </constraints>
+            <point key="canvasLocation" x="141" y="154"/>
+        </view>
+    </objects>
+</document>

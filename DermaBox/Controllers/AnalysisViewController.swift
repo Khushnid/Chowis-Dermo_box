@@ -286,7 +286,7 @@ class AnalysisViewController: BaseViewController {
             self.addImagesFromArray(diags: DiagnosisInformation.shared.impuritiesImages, mode: .impurities)
             self.impuritiesButtonPressed(self.impuritiesButton)
         }
-        // MARK:  here
+       
         if self.isWrinklesAvailable {
             
             self.addImagesFromArray(diags: DiagnosisInformation.shared.wrinklesImages, mode: .wrinkles)

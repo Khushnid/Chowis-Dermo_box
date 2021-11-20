@@ -9,7 +9,7 @@
 import UIKit
 import ChowisSDK
 
-protocol SkinColorGroupViewControllerDelegate: class {
+protocol SkinColorGroupViewControllerDelegate: AnyObject {
     
     func didSelectSkinColorGroupViewControllerSkinColorGroupButton(with cwSkinScalpColorType: CWSkinScalpColorType)
 }

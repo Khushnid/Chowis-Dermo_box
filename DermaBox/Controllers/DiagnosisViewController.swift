@@ -2230,8 +2230,6 @@ extension DiagnosisViewController: CWVideoPlayerDelegate {
                 DiagnosisInformation.shared.skinToneForeheadImage = diag
             }
             
-            //MARK: - NEED TO APPLY SKIN TONE ANALYSIS
-            let analyzeSkinTone = "SKIN TONE NOT ANALYZED"
             
         } else if currentMode == .blackhead {
             

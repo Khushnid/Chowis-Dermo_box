@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol DeviceActivationInputViewControllerDelegate: class {
+protocol DeviceActivationInputViewControllerDelegate: AnyObject {
     
     func didSelectDeviceActivationInputViewControllerSubmitButton()
     func didSelectDeviceActivationInputViewControllerCancelButton()

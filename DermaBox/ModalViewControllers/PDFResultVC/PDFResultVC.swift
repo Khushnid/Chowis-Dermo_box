@@ -9,7 +9,7 @@
 import Foundation
 import PDFKit
 
-protocol PDFResultPopupViewControllerDelegate: class {
+protocol PDFResultPopupViewControllerDelegate: AnyObject {
     func didSelectPDFResultViewControllerLeftButtonPressed()
     func didSelectPDFResultPopupViewControllerRightButtonPressed()
 }

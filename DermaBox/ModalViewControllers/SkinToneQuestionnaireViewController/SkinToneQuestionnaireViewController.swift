@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol SkinToneQuestionnaireViewControllerDelegate: class {
+protocol SkinToneQuestionnaireViewControllerDelegate: AnyObject {
     
     func didSelectSkinToneQuestionnaireViewControllerYesButtonPressed()
     func didSelectSkinToneQuestionnaireViewControllerNoButtonPressed()

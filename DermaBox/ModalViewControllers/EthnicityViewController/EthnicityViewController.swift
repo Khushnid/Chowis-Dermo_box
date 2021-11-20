@@ -9,7 +9,7 @@
 import UIKit
 import ChowisSDK
 
-protocol EthnicityViewControllerDelegate: class {
+protocol EthnicityViewControllerDelegate: AnyObject {
     
     func didSelectEthnicityViewControllerEthnnicityButton(with cwEthnicity: CWEthnicity)
 }

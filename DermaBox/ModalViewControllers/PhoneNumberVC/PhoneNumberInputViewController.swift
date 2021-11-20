@@ -7,7 +7,7 @@
 import UIKit
 
 
-protocol PhoneNumberInputViewControllerDelegate: class {
+protocol PhoneNumberInputViewControllerDelegate: AnyObject {
     func didSelectPhoneNumberInputViewControllerSubmitButton()
 }
 

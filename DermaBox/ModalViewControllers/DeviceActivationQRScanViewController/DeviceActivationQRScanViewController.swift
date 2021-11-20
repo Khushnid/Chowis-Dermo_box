@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-protocol DeviceActivationQRScanViewControllerDelegate: class {
+protocol DeviceActivationQRScanViewControllerDelegate: AnyObject {
     
     func didSelectDeviceActivationQRScanViewControllerManualInputButtonPressed()
     func didSelectDeviceActivationQRScanViewControllerCancelButtonPressed()

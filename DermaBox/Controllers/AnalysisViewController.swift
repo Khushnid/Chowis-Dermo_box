@@ -784,13 +784,13 @@ class AnalysisViewController: BaseViewController {
                         if index % 2 == 0 {
                             
                             if let spotsImage = Util.shared.getImageFromDatabase(fileName: DiagnosisInformation.shared.blackheadImages[index].originalPath) {
-                                
+                                print(spotsImage)
                             }
                             
                         } else {
                             
                             if let impuritiesImage = Util.shared.getImageFromDatabase(fileName: DiagnosisInformation.shared.blackheadImages[index].originalPath) {
-                                
+                                print(impuritiesImage)
                             }
                         }
                         
@@ -804,7 +804,7 @@ class AnalysisViewController: BaseViewController {
                     for index in 0...DiagnosisInformation.shared.skinSensitivityImages.count - 1 {
                         
                         if let image = Util.shared.getImageFromDatabase(fileName: DiagnosisInformation.shared.skinSensitivityImages[index].originalPath) {
-                            
+                            print(image)
 //                            let result:CWAnalysisResult = CWImageAnalysis.shared().skin
 //                            skinWrinkle(withInputImage: image, rect: DiagnosisInformation.shared.wrinklesImages[index].wrinkleRect)
                         }

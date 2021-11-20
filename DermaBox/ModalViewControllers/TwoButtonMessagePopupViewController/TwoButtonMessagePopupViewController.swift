@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol TwoButtonMessagePopupViewControllerDelegate: class {
+protocol TwoButtonMessagePopupViewControllerDelegate: AnyObject {
     
     func didSelectTwoButtonMessagePopupViewControllerLeftButtonPressed()
     func didSelectTwoButtonMessagePopupViewControllerRightButtonPressed()

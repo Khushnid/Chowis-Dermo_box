@@ -9,7 +9,7 @@
 import UIKit
 
 
-protocol OneButtonMessagePopupViewControllerDelegate: class {
+protocol OneButtonMessagePopupViewControllerDelegate: AnyObject {
     
     func didSelectOneButtonMessagePopupOkPressed()
 }

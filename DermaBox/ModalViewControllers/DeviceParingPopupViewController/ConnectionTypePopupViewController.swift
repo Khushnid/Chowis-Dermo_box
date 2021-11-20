@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol ConnectionTypeDelegate: class {
+protocol ConnectionTypeDelegate: AnyObject {
     
     func didSelectWififButtuonPopupViewController()
     func didSelectCelullarPopupViewController()

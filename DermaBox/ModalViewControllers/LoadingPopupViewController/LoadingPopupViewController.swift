@@ -9,7 +9,7 @@
 import UIKit
 import NVActivityIndicatorView
 
-protocol LoadingPopupViewControllerDelegate: class {
+protocol LoadingPopupViewControllerDelegate: AnyObject {
     
     func didSelectLoadingPopupViewControllerDoneLoading(done: Bool)
 }

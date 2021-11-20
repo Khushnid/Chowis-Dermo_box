@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol CustomerInfoViewControllerDelegate: class {
+protocol CustomerInfoViewControllerDelegate: AnyObject {
     func didSelectCustomerInfoViewControllerSubmitButton()
 }
 

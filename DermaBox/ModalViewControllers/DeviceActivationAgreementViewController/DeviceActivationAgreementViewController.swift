@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol DeviceActivationAgreementViewControllerDelegate: class {
+protocol DeviceActivationAgreementViewControllerDelegate: AnyObject {
     
     func didSelectDeviceActivationAgreementViewControllerNextButton()
     func didSelectDeviceActivationAgreementViewControllerCancelButton()

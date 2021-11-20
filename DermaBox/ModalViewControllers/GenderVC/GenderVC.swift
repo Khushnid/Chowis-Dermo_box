@@ -7,7 +7,7 @@
 //
 
 import UIKit
-protocol GenderViewControllerDelegate: class {
+protocol GenderViewControllerDelegate: AnyObject {
     
     func didSelectGenderViewControllerNextButton()
     func didSelectGenderViewControllerCancelButton()

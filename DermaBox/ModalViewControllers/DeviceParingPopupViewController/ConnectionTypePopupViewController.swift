@@ -22,19 +22,21 @@ class ConnectionTypePopupViewController: BaseViewController {
     @IBOutlet var celullarPointLabel: UILabel!
     @IBOutlet var MobileButton: UIView!
     @IBOutlet var WifiButton: UIView!
+    @IBOutlet weak var cellularButton: UIButton!
+    @IBOutlet weak var wifiRouterButton: UIButton!
     weak var delegate: ConnectionTypeDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.titleLabel.text = "NOTICE!".localized
+        self.titleLabel.text = "Internet.Connection".localized
         self.deviceParingLabel.text = "Please select the internet connection\n you wish to use:".localized
         self.wifiPointLabel.text = "Wi-Fi Router Internet Connection".localized
         self.celullarPointLabel.text = "Mobile Phone Data Connection".localized
         self.MobileButton.layer.cornerRadius = 7
         self.WifiButton.layer.cornerRadius = 7
-        self.MobileButton.applyGradientForView(colours: [#colorLiteral(red: 0.7779700756, green: 0.5936511159, blue: 0.0965700075, alpha: 1), #colorLiteral(red: 0.9150692821, green: 0.8693137169, blue: 0.5810949802, alpha: 1), #colorLiteral(red: 0.7779700756, green: 0.5936511159, blue: 0.0965700075, alpha: 1)], cornerRadius: 7)
-        self.WifiButton.applyGradientForView(colours: [#colorLiteral(red: 0.7779700756, green: 0.5936511159, blue: 0.0965700075, alpha: 1), #colorLiteral(red: 0.9150692821, green: 0.8693137169, blue: 0.5810949802, alpha: 1), #colorLiteral(red: 0.7779700756, green: 0.5936511159, blue: 0.0965700075, alpha: 1)], cornerRadius: 7)
+        self.cellularButton.applyGradientForView(colours: [#colorLiteral(red: 0.7779700756, green: 0.5936511159, blue: 0.0965700075, alpha: 1), #colorLiteral(red: 0.9150692821, green: 0.8693137169, blue: 0.5810949802, alpha: 1), #colorLiteral(red: 0.7779700756, green: 0.5936511159, blue: 0.0965700075, alpha: 1)], cornerRadius: 7)
+        self.wifiRouterButton.applyGradientForView(colours: [#colorLiteral(red: 0.7779700756, green: 0.5936511159, blue: 0.0965700075, alpha: 1), #colorLiteral(red: 0.9150692821, green: 0.8693137169, blue: 0.5810949802, alpha: 1), #colorLiteral(red: 0.7779700756, green: 0.5936511159, blue: 0.0965700075, alpha: 1)], cornerRadius: 7)
     }
     
     @IBAction func celullarButtonPressed(_ sender: Any) {

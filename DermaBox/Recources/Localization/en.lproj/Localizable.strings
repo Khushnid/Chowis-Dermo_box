@@ -144,6 +144,7 @@
 "4 or more cups" = "4 or more cups";
 "Do you wear sun-protection products?" = "Do you wear sun-protection products?";
 "Yes" = "Yes";
+"OK" = "OK";
 "Yes, but not always" = "Yes, but not always";
 "No" = "No";
 "How many times a day do you clean and moisturize your skin?" = "How many times a day do you clean and moisturize your skin?";
@@ -216,4 +217,8 @@
 "NOTICE!" = "NOTICE!";
 "(Same as yesterday)" = "(Same as yesterday)";
 "City" = "City";
+"Internet.Connection" = "Internet Connection";
 "Would you like to send results to the customer?" = "Would you like to send results to the customer?";
+
+/*Agreement View Controller*/
+"This feature provides additional guarantee that the device and program are synchronized and would provide accurate analysis results. The need for patients\' details are used only for the purposes of conducting a digital skin analysis and for sharing the skin analysis results with the patient." = "The initial device activation is required to guarantee that the application is synchronized with the device and that the skin analysis yields accurate results.  Patient details are used by the application only for conduction a digital skin analysis and for sharing the skin analysis results with the patients";

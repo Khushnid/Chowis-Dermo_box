@@ -17,11 +17,13 @@
             <connections>
                 <outlet property="MobileButton" destination="k7c-cx-eHE" id="d6g-Ds-A7X"/>
                 <outlet property="WifiButton" destination="Ez9-Bz-Sby" id="1IV-Dg-F6P"/>
+                <outlet property="cellularButton" destination="y0O-G3-BBf" id="uFD-zM-AZ1"/>
                 <outlet property="celullarPointLabel" destination="ETq-A3-QkZ" id="r6Z-XX-Moo"/>
                 <outlet property="deviceParingLabel" destination="5JE-2h-c9B" id="a7i-Xz-S0f"/>
                 <outlet property="titleLabel" destination="o1c-tv-uG5" id="YZv-5K-rV0"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outlet property="wifiPointLabel" destination="Xgl-af-bkq" id="sLk-tc-Wr3"/>
+                <outlet property="wifiRouterButton" destination="qWx-gO-TTX" id="v4h-OV-8pf"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -69,8 +71,8 @@
                                 <constraint firstItem="o1c-tv-uG5" firstAttribute="top" secondItem="7Ki-YP-Xft" secondAttribute="top" constant="4" id="qlV-3s-Tag"/>
                             </constraints>
                         </view>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="grD-Fe-3iL">
-                            <rect key="frame" x="0.0" y="50" width="342.66666666666669" height="292.66666666666669"/>
+                        <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="grD-Fe-3iL">
+                            <rect key="frame" x="-3" y="115" width="342.66666666666669" height="292.66666666666669"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please select the internet connection you wish to use:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5JE-2h-c9B">
                                     <rect key="frame" x="30" y="16" width="282.66666666666669" height="36"/>

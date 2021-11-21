@@ -22,7 +22,6 @@ class DeviceActivationInputViewController: BaseViewController, LoadingPopupViewC
     @IBOutlet var enterEmailAddressTextField: UITextField!
     @IBOutlet var enterPasswordTextField: UITextField!
     @IBOutlet var activationLabel: UILabel!
-    @IBOutlet var titleLabel: UILabel!
     weak var delegate: DeviceActivationInputViewControllerDelegate?
     var serialNumber: String?
     
@@ -66,8 +65,7 @@ class DeviceActivationInputViewController: BaseViewController, LoadingPopupViewC
     }
     
     func setLocalization() {
-        self.activationLabel.text = "NOTICE!".localized
-        self.titleLabel.text = "Input Device Details".localized
+        self.activationLabel.text = "Input Device Details".localized
         self.submitButton.setTitle("SUBMIT".localized, for: .normal)
         self.cancelButton.setTitle("Back".localized, for: .normal)
         self.enterSerialNumberTextField.placeholder = "Serial Number".localized

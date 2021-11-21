@@ -155,6 +155,7 @@
 "4 or more cups" = "4 or more cups";
 "Do you wear sun-protection products?" = "Do you wear sun-protection products?";
 "Yes" = "כן";
+"OK" = "כן";
 "Yes, but not always" = "Yes, but not always";
 "No" = "לא";
 "How many times a day do you clean and moisturize your skin?" = "How many times a day do you clean and moisturize your skin?";
@@ -288,6 +289,7 @@
 "Please select the internet connection\n you wish to use:" = "נא לבחור את חיבור האינטרנט\n שבו ברצונך להשתמש:";
 "Wi-Fi Router Internet Connection" = "חיבור אינטרנט באמצעות נתב Wi-Fi";
 "Mobile Phone Data Connection" = "חיבור אינטרנט באמצעות רשת הטלפון";
+"Internet.Connection" = "חיבור לאינטרנט";
 
 /*Loading View Controller*/
 "Retrieving data..." = "משחזר נתונים...";

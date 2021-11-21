@@ -20,7 +20,6 @@ class DeviceActivationAgreementViewController: BaseViewController {
     @IBOutlet var cancelButton: UIButton!
     @IBOutlet var checkBox: UIButton!
     @IBOutlet var activationLabel: UILabel!
-    @IBOutlet var titleLabel: UILabel!
     @IBOutlet var bodyLabel: UILabel!
     @IBOutlet var agreementLabel: UILabel!
     weak var delegate: DeviceActivationAgreementViewControllerDelegate?
@@ -65,11 +64,10 @@ class DeviceActivationAgreementViewController: BaseViewController {
     }
     
     func setLocalization() {
-        activationLabel.text = "NOTICE!".localized
-        titleLabel.text = "Initial Device Activation".localized
+        activationLabel.text = "Initial Device Activation".localized
         bodyLabel.text = "This feature provides additional guarantee that the device and program are synchronized and would provide accurate analysis results. The need for patients\' details are used only for the purposes of conducting a digital skin analysis and for sharing the skin analysis results with the patient.".localized
         agreementLabel.text = "I Agree and Understand".localized
-        nextButton.setTitle("Yes".localized, for: .normal)
+        nextButton.setTitle("OK".localized, for: .normal)
         cancelButton.setTitle("Not now".localized, for: .normal)
     }
 }

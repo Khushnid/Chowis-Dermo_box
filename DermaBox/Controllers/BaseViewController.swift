@@ -45,6 +45,10 @@ class BaseViewController: UIViewController, UITextFieldDelegate {
         setupInitials()
     }
     
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+    
     private func setupInitials() {
         navigationController?.interactivePopGestureRecognizer?.delegate = self
         NotificationCenter.default.addObserver(self, selector: #selector(self.keyboardWillShow),

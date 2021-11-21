@@ -392,3 +392,10 @@ extension UIButton {
     }
 }
 
+public func openWifiSettings() {
+    let shared = UIApplication.shared
+    let url = URL(string: UIApplication.openSettingsURLString)!
+    shared.open(url)
+}
+
+ 

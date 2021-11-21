@@ -806,14 +806,14 @@
 		E78899402663AAC0000FDF04 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E788994A2663AAC0000FDF04 /* AFNetworking */,
-				E788994C2663AAC0000FDF04 /* Alamofire */,
-				E788994E2663AAC0000FDF04 /* DropDown */,
-				E78899502663AAC0000FDF04 /* NVActivityIndicatorView */,
+				E788994A2663AAC0000FDF04 /* AFNetworking.framework */,
+				E788994C2663AAC0000FDF04 /* Alamofire.framework */,
+				E788994E2663AAC0000FDF04 /* DropDown.framework */,
+				E78899502663AAC0000FDF04 /* NVActivityIndicatorView.framework */,
 				E78899522663AAC0000FDF04 /* Pods-DermaBox */,
-				E78899542663AAC0000FDF04 /* ReachabilitySwift */,
-				E7736EF0266CCA04008C5DE7 /* SwiftyJSON */,
-				E78899562663AAC0000FDF04 /* Toaster */,
+				E78899542663AAC0000FDF04 /* Reachability.framework */,
+				E7736EF0266CCA04008C5DE7 /* SwiftyJSON.framework */,
+				E78899562663AAC0000FDF04 /* Toaster.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -935,42 +935,37 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		E7736EF0266CCA04008C5DE7 /* SwiftyJSON */ = {
+		E7736EF0266CCA04008C5DE7 /* SwiftyJSON.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			name = SwiftyJSON;
 			path = SwiftyJSON.framework;
 			remoteRef = E7736EEF266CCA04008C5DE7 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		E788994A2663AAC0000FDF04 /* AFNetworking */ = {
+		E788994A2663AAC0000FDF04 /* AFNetworking.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			name = AFNetworking;
 			path = AFNetworking.framework;
 			remoteRef = E78899492663AAC0000FDF04 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		E788994C2663AAC0000FDF04 /* Alamofire */ = {
+		E788994C2663AAC0000FDF04 /* Alamofire.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			name = Alamofire;
 			path = Alamofire.framework;
 			remoteRef = E788994B2663AAC0000FDF04 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		E788994E2663AAC0000FDF04 /* DropDown */ = {
+		E788994E2663AAC0000FDF04 /* DropDown.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			name = DropDown;
 			path = DropDown.framework;
 			remoteRef = E788994D2663AAC0000FDF04 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		E78899502663AAC0000FDF04 /* NVActivityIndicatorView */ = {
+		E78899502663AAC0000FDF04 /* NVActivityIndicatorView.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			name = NVActivityIndicatorView;
 			path = NVActivityIndicatorView.framework;
 			remoteRef = E788994F2663AAC0000FDF04 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -983,18 +978,16 @@
 			remoteRef = E78899512663AAC0000FDF04 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		E78899542663AAC0000FDF04 /* ReachabilitySwift */ = {
+		E78899542663AAC0000FDF04 /* Reachability.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			name = ReachabilitySwift;
 			path = Reachability.framework;
 			remoteRef = E78899532663AAC0000FDF04 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		E78899562663AAC0000FDF04 /* Toaster */ = {
+		E78899562663AAC0000FDF04 /* Toaster.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			name = Toaster;
 			path = Toaster.framework;
 			remoteRef = E78899552663AAC0000FDF04 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -1326,7 +1319,7 @@
 				CODE_SIGN_ENTITLEMENTS = DermaBox/Dermabox.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = Y77A582JHV;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1364,7 +1357,7 @@
 				CODE_SIGN_ENTITLEMENTS = DermaBox/Dermabox.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = Y77A582JHV;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (

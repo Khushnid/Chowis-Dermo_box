@@ -287,8 +287,8 @@
 
 /*Internet Connection Pop up*/
 "Please select the internet connection\n you wish to use:" = "נא לבחור את חיבור האינטרנט\n שבו ברצונך להשתמש:";
-"Wi-Fi Router Internet Connection" = "חיבור אינטרנט באמצעות נתב Wi-Fi";
-"Mobile Phone Data Connection" = "חיבור אינטרנט באמצעות רשת הטלפון";
+"Internet Connection" = "חיבור אינטרנט באמצעות נתב Wi-Fi";
+"Device Wi-Fi Connection" = "חיבור אינטרנט באמצעות רשת הטלפון";
 "Internet.Connection" = "חיבור לאינטרנט";
 
 /*Loading View Controller*/

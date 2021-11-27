@@ -248,7 +248,6 @@ class AnalysisViewController: BaseViewController {
     func checkAndDismissIndicator() {
         
         self.analysisCount += 1
-        
         self.poresAnalyzingAllProgressView.progressValue = (CGFloat(self.poresAnalyzeCount) / CGFloat(DiagnosisInformation.shared.poresImages.count)) * 100
         self.spotsAnalyzingAllProgressView.progressValue = (CGFloat(self.spotsAnalyzeCount) / CGFloat(DiagnosisInformation.shared.spotsImages.count)) * 100
         self.wrinklesAnalyzingAllProgressView.progressValue = (CGFloat(self.wrinklesAnalyzeCount) / CGFloat(DiagnosisInformation.shared.wrinklesImages.count)) * 100

@@ -31,16 +31,16 @@ class ConnectionTypePopupViewController: BaseViewController {
         self.deviceParingLabel.text = "Please select the internet connection\n you wish to use:".localized
         self.wifiPointLabel.text = "Device Wi-Fi Connection".localized
         self.celullarPointLabel.text = "Internet Connection".localized
-        
     }
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         
-        self.MobileButton.layer.cornerRadius = 7
-        self.WifiButton.layer.cornerRadius = 7
-        self.MobileButton.applyGradientForView(colours: [#colorLiteral(red: 0.7779700756, green: 0.5936511159, blue: 0.0965700075, alpha: 1), #colorLiteral(red: 0.9150692821, green: 0.8693137169, blue: 0.5810949802, alpha: 1), #colorLiteral(red: 0.7779700756, green: 0.5936511159, blue: 0.0965700075, alpha: 1)], cornerRadius: 7)
-        self.WifiButton.applyGradientForView(colours: [#colorLiteral(red: 0.7779700756, green: 0.5936511159, blue: 0.0965700075, alpha: 1), #colorLiteral(red: 0.9150692821, green: 0.8693137169, blue: 0.5810949802, alpha: 1), #colorLiteral(red: 0.7779700756, green: 0.5936511159, blue: 0.0965700075, alpha: 1)], cornerRadius: 7)
+        self.MobileButton.layer.cornerRadius = 5
+        self.WifiButton.layer.cornerRadius = 5
+        
+        self.MobileButton.applyGradientForView(colours: [#colorLiteral(red: 0.7779700756, green: 0.5936511159, blue: 0.0965700075, alpha: 1), #colorLiteral(red: 0.9150692821, green: 0.8693137169, blue: 0.5810949802, alpha: 1), #colorLiteral(red: 0.7779700756, green: 0.5936511159, blue: 0.0965700075, alpha: 1)], cornerRadius: 5)
+        self.WifiButton.applyGradientForView(colours: [#colorLiteral(red: 0.7779700756, green: 0.5936511159, blue: 0.0965700075, alpha: 1), #colorLiteral(red: 0.9150692821, green: 0.8693137169, blue: 0.5810949802, alpha: 1), #colorLiteral(red: 0.7779700756, green: 0.5936511159, blue: 0.0965700075, alpha: 1)], cornerRadius: 5)
     }
     
     @IBAction func celullarButtonPressed(_ sender: Any) {
@@ -60,7 +60,6 @@ class ConnectionTypePopupViewController: BaseViewController {
     }
     
     @IBAction func closeButtonPressed(_ sender: Any) {
-        
         self.dismiss(animated: true, completion: nil)
     }
 }

@@ -34,7 +34,7 @@
 /* SettingsViewController */
 "GENERAL OPTIONS" = "אפשרויות כלליות";
 "CAMERA SETTINGS" = "הגדרות מצלמה";
-"CHANGE LANGUAGE" = "שנה שפה";
+"CHANGE LANGUAGE" = "שינוי שפה";
 
 /* LanguageViewController */
 "SAVE" = "שמירה";
@@ -223,7 +223,9 @@
 //"Step 2: Place black film on the top of camera and press capture. Make sure optical lens cover black film fully." = "Step 2: Place black film on the top of camera and press capture. Make sure optical lens cover black film fully.";
 "U Zone Moisture" = "אזור הלחיים";
 //"Step 2: Place Moisture Sensor on the Cheeks and press capture button on the camera device." = "Step 2: Place Moisture Sensor on the Cheeks and press capture button on the camera device.";
-"You are not connected to the device. Please connect to your device to continue analysis" = "אינך מחוברת למכשיר. \n נא התחברי למכשיר \n כדי להמשיך באבחון העור.";
+"You are not connected to the device. Please connect to your device to continue analysis" = "אינך מחוברת למכשיר האבחון.
+נא התחברי למכשיר כדי להמשיך באבחון העור.
+";
 //"It seems like you are not connected to the internet!\nPlease go to the Setting and connect to the Internet." = "It seems like you are not connected to the internet!\nPlease go to the Setting and connect to the Internet.";
 //"It seems like your device is not connected to the phone!\nPlease go the Setting and connect device via Wi-Fi." = "It seems like your device is not connected to the phone!\nPlease go the Setting and connect device via Wi-Fi.";
 "Do you want to analyze the taken measurement?" = "האם ברצונך לשלוח את התוצאות\n ללקוח/ה?";
@@ -244,7 +246,7 @@
 "Close" = "סגירה";
 "CLOSE" = "סגירה";
 /* Internet Connection */
-"Connect" = "קישור";
+"Connect" = "התחברות למכשיר";
 "Cancel" = "ביטול";
 "NOTICE!" = "הודעה!";
 

@@ -2,7 +2,7 @@
 //  CustomerInfoViewController.swift
 //  Chowis Analysis Skin 2
 //
-//  Created by ~Akhtamov on 4/18/21.
+//  Created by ~Akhtamov on 4/18/21.j
 //  Copyright © 2021 Chowis Co Ltd. All rights reserved.
 //
 
@@ -52,6 +52,11 @@ class CustomerInfoViewController: BaseViewController {
         self.birthDateTextField.layer.cornerRadius = 5
         self.nameTextField.layer.cornerRadius = 5
         self.phoneTextField.layer.cornerRadius = 5
+        
+        self.emailTextField.isEnabled = true
+        self.birthDateTextField.isEnabled = true
+        self.nameTextField.isEnabled = true
+        self.phoneTextField.isEnabled = true
     }
     
     private func fillUserInfo() {

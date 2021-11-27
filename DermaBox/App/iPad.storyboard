@@ -884,7 +884,7 @@
                                                     <constraint firstAttribute="height" constant="60" id="q6F-By-bpB"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="AvenirLTStd-Book" family="Avenir LT Std" pointSize="26"/>
-                                                <state key="normal" title="Hebrew">
+                                                <state key="normal" title="עברית">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>

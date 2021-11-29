@@ -22,6 +22,10 @@ class CustomerInfoViewController: BaseViewController {
     @IBOutlet var emailTextField: UITextField!
     @IBOutlet var titleLabel: UILabel!
     
+    @IBOutlet weak var nameHeader: UILabel!
+    @IBOutlet weak var birthdayHeader: UILabel!
+    @IBOutlet weak var phoneHeader: UILabel!
+    @IBOutlet weak var genderHeader: UILabel!
     //MARK: - Properties
     weak var delegate: CustomerInfoViewControllerDelegate?
     
@@ -30,6 +34,7 @@ class CustomerInfoViewController: BaseViewController {
         super.viewDidLoad()
         fillUserInfo()
         setLocalization()
+        setupLanguageDifferences()
     }
     
     override func viewDidLayoutSubviews() {
@@ -69,11 +74,30 @@ class CustomerInfoViewController: BaseViewController {
     func setLocalization() {
         self.titleLabel.text = "Customer Details".localized
         submitButton.setTitle("OK".localized, for: .normal)
+        
+        nameHeader.text = "Customer.Details.Name".localized
+        birthdayHeader.text = "Customer.Details.Birthday".localized
+        phoneHeader.text = "Customer.Details.Phone".localized
+        genderHeader.text = "Customer.Details.Gender".localized
     }
     
     @IBAction func submitPressed(_ sender: UIButton ) {
         self.dismiss(animated: true) {
             self.delegate?.didSelectCustomerInfoViewControllerSubmitButton()
+        }
+    }
+    
+    private func setupLanguageDifferences() {
+        if checkForEnglish() {
+            phoneTextField.textAlignment = .left
+            nameTextField.textAlignment = .left
+            birthDateTextField.textAlignment = .left
+            emailTextField.textAlignment = .left
+        } else {
+            nameHeader.textAlignment = .right
+            birthdayHeader.textAlignment = .right
+            phoneHeader.textAlignment = .right
+            genderHeader.textAlignment = .right
         }
     }
 }

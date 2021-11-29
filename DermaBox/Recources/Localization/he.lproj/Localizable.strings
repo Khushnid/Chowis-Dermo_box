@@ -282,7 +282,7 @@
 "Login" = "התחברות";
 "Input Customer Telephone Number" = "נא להזין מספר טלפון נייד של הלקוח/ה";
 "Enter Mobile Number" = "נא להזין מספר טלפון נייד";
-"C.Code" = "מיקוד";
+"C.Code" = "קידומת מדינה";
 
 /* Customer Info View Controller */
 "Customer Details" = "פרטי לקוח/ה";
@@ -300,3 +300,9 @@
 "Sending Failed" = "השליחה נכשלה";
 "Successfully Sent" = "נשלח בהצלחה";
 "RETRY" = "נסה שוב";
+
+
+"Customer.Details.Name" = "שם לקוח/ה";
+"Customer.Details.Birthday" = "תאריך לידה";
+"Customer.Details.Phone" = "מספר טלפון נייד";
+"Customer.Details.Gender" = "כתובת דואל";

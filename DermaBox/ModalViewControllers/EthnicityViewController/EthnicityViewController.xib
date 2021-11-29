@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="ipad9_7" orientation="landscape" layout="fullscreen" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,7 +13,7 @@
         </array>
     </customFonts>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EthnicityViewController" customModule="Chowis_Analysis_Skin_2" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EthnicityViewController" customModule="DermaBox" customModuleProvider="target">
             <connections>
                 <outlet property="asianEastButton" destination="frT-TK-wW4" id="Ywk-LO-ecp"/>
                 <outlet property="cancelButton" destination="k6a-Yg-LJQ" id="jPd-0P-DgZ"/>
@@ -21,7 +21,9 @@
                 <outlet property="darkSkinButton" destination="fsy-Z1-16b" id="Neo-SC-Icv"/>
                 <outlet property="ethnicityTitleLabel" destination="4e3-8n-Y2r" id="duf-TO-Izj"/>
                 <outlet property="hispanicButton" destination="qHH-ZN-J6P" id="RpY-BN-Edl"/>
-                <outlet property="southEastAsianButton" destination="nwZ-03-ykz" id="2Jr-IZ-wTF"/>
+                <outlet property="middleEastNorthAfricaButton" destination="nwZ-03-ykz" id="XHw-yv-ek8"/>
+                <outlet property="southAsian" destination="Nie-HV-sJP" id="aUn-2u-O8s"/>
+                <outlet property="southestAsian" destination="dAL-LW-rG8" id="xDq-bF-xfq"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -61,38 +63,10 @@
                             <rect key="frame" x="0.0" y="60" width="819" height="554"/>
                             <subviews>
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="By5-6S-aS2">
-                                    <rect key="frame" x="209.5" y="77" width="400" height="400"/>
+                                    <rect key="frame" x="209.5" y="9" width="400" height="536"/>
                                     <subviews>
-                                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="frT-TK-wW4">
-                                            <rect key="frame" x="0.0" y="0.0" width="400" height="60"/>
-                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <fontDescription key="fontDescription" name="AvenirLTStd-Book" family="Avenir LT Std" pointSize="16"/>
-                                            <state key="normal" title="ASIAN EAST">
-                                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </state>
-                                            <variation key="heightClass=regular-widthClass=regular">
-                                                <fontDescription key="fontDescription" name="AvenirLTStd-Book" family="Avenir LT Std" pointSize="20"/>
-                                            </variation>
-                                            <connections>
-                                                <action selector="ethnicityButtonPressed:" destination="-1" eventType="touchUpInside" id="xJc-OJ-VTB"/>
-                                            </connections>
-                                        </button>
-                                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nwZ-03-ykz">
-                                            <rect key="frame" x="0.0" y="68" width="400" height="60"/>
-                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <fontDescription key="fontDescription" name="AvenirLTStd-Book" family="Avenir LT Std" pointSize="16"/>
-                                            <state key="normal" title="S/E ASIAN">
-                                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </state>
-                                            <variation key="heightClass=regular-widthClass=regular">
-                                                <fontDescription key="fontDescription" name="AvenirLTStd-Book" family="Avenir LT Std" pointSize="20"/>
-                                            </variation>
-                                            <connections>
-                                                <action selector="ethnicityButtonPressed:" destination="-1" eventType="touchUpInside" id="pqd-lX-Plf"/>
-                                            </connections>
-                                        </button>
                                         <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gHb-ha-b2A">
-                                            <rect key="frame" x="0.0" y="136" width="400" height="60"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="400" height="60"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="30" id="VTc-t8-LL3">
@@ -110,6 +84,36 @@
                                                 <action selector="ethnicityButtonPressed:" destination="-1" eventType="touchUpInside" id="3Y8-QX-nLf"/>
                                             </connections>
                                         </button>
+                                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nwZ-03-ykz">
+                                            <rect key="frame" x="0.0" y="68" width="400" height="60"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <fontDescription key="fontDescription" name="AvenirLTStd-Book" family="Avenir LT Std" pointSize="16"/>
+                                            <state key="normal">
+                                                <string key="title">Middle East &amp; North Africa
+</string>
+                                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <variation key="heightClass=regular-widthClass=regular">
+                                                <fontDescription key="fontDescription" name="AvenirLTStd-Book" family="Avenir LT Std" pointSize="20"/>
+                                            </variation>
+                                            <connections>
+                                                <action selector="ethnicityButtonPressed:" destination="-1" eventType="touchUpInside" id="pqd-lX-Plf"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qHH-ZN-J6P">
+                                            <rect key="frame" x="0.0" y="136" width="400" height="60"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <fontDescription key="fontDescription" name="AvenirLTStd-Book" family="Avenir LT Std" pointSize="16"/>
+                                            <state key="normal" title="HISPANIC">
+                                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <variation key="heightClass=regular-widthClass=regular">
+                                                <fontDescription key="fontDescription" name="AvenirLTStd-Book" family="Avenir LT Std" pointSize="20"/>
+                                            </variation>
+                                            <connections>
+                                                <action selector="ethnicityButtonPressed:" destination="-1" eventType="touchUpInside" id="3Fo-xJ-eFv"/>
+                                            </connections>
+                                        </button>
                                         <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fsy-Z1-16b">
                                             <rect key="frame" x="0.0" y="204" width="400" height="60"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -124,22 +128,50 @@
                                                 <action selector="ethnicityButtonPressed:" destination="-1" eventType="touchUpInside" id="fV8-PM-pOu"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qHH-ZN-J6P">
+                                        <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nie-HV-sJP">
                                             <rect key="frame" x="0.0" y="272" width="400" height="60"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <fontDescription key="fontDescription" name="AvenirLTStd-Book" family="Avenir LT Std" pointSize="16"/>
-                                            <state key="normal" title="HISPANIC">
+                                            <state key="normal" title="SOUTH ASIAN">
                                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </state>
                                             <variation key="heightClass=regular-widthClass=regular">
                                                 <fontDescription key="fontDescription" name="AvenirLTStd-Book" family="Avenir LT Std" pointSize="20"/>
                                             </variation>
                                             <connections>
-                                                <action selector="ethnicityButtonPressed:" destination="-1" eventType="touchUpInside" id="3Fo-xJ-eFv"/>
+                                                <action selector="ethnicityButtonPressed:" destination="-1" eventType="touchUpInside" id="QoM-GS-AMg"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dAL-LW-rG8">
+                                            <rect key="frame" x="0.0" y="340" width="400" height="60"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <fontDescription key="fontDescription" name="AvenirLTStd-Book" family="Avenir LT Std" pointSize="16"/>
+                                            <state key="normal" title="SOUTHEST ASIAN">
+                                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <variation key="heightClass=regular-widthClass=regular">
+                                                <fontDescription key="fontDescription" name="AvenirLTStd-Book" family="Avenir LT Std" pointSize="20"/>
+                                            </variation>
+                                            <connections>
+                                                <action selector="ethnicityButtonPressed:" destination="-1" eventType="touchUpInside" id="HYe-hp-wc9"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="frT-TK-wW4">
+                                            <rect key="frame" x="0.0" y="408" width="400" height="60"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <fontDescription key="fontDescription" name="AvenirLTStd-Book" family="Avenir LT Std" pointSize="16"/>
+                                            <state key="normal" title="ASIAN EAST">
+                                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <variation key="heightClass=regular-widthClass=regular">
+                                                <fontDescription key="fontDescription" name="AvenirLTStd-Book" family="Avenir LT Std" pointSize="20"/>
+                                            </variation>
+                                            <connections>
+                                                <action selector="ethnicityButtonPressed:" destination="-1" eventType="touchUpInside" id="xJc-OJ-VTB"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k6a-Yg-LJQ">
-                                            <rect key="frame" x="0.0" y="340" width="400" height="60"/>
+                                            <rect key="frame" x="0.0" y="476" width="400" height="60"/>
                                             <color key="backgroundColor" red="0.4392156862745098" green="0.4392156862745098" blue="0.4392156862745098" alpha="1" colorSpace="calibratedRGB"/>
                                             <fontDescription key="fontDescription" name="AvenirLTStd-Book" family="Avenir LT Std" pointSize="16"/>
                                             <state key="normal" title="Cancel">

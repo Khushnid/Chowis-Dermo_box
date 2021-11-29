@@ -65,6 +65,7 @@ extension Date {
         DateFormatterHelper.shared.dateFormatter.locale = Locale(identifier: currentLanguage)
         return DateFormatterHelper.shared.dateFormatter.string(from: self)
     }
+    
 }
 
 class DateFormatterHelper {
@@ -399,3 +400,7 @@ public func openWifiSettings() {
 }
 
  
+
+public func checkForEnglish() -> Bool {
+    return defaults.value(forKey: CURRENT_LANGUAGE) as? String == "en"
+}

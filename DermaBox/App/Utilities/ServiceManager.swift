@@ -10,7 +10,6 @@ import Foundation
 import UIKit
 import CoreLocation
 import Alamofire
-import SwiftyJSON
 import MobileCoreServices
 
 public typealias Parameters = [String: Any]

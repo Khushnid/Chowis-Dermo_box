@@ -3,11 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F95F0EF27647B6F001D762A /* Plugins in Resources */ = {isa = PBXBuildFile; fileRef = 3F95F0EE27647B6F001D762A /* Plugins */; };
+		3FDF482827649786005AD4D3 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FDF482327649786005AD4D3 /* opencv2.framework */; };
+		3FDF482B27649786005AD4D3 /* FFmpeg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FDF482627649786005AD4D3 /* FFmpeg.framework */; };
+		3FDF482F276497CD005AD4D3 /* CWLocalAlgorithm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FDF482427649786005AD4D3 /* CWLocalAlgorithm.framework */; platformFilter = ios; };
+		3FDF4830276497CD005AD4D3 /* CWLocalAlgorithm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3FDF482427649786005AD4D3 /* CWLocalAlgorithm.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3FDF4832276497E0005AD4D3 /* ChowisSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FDF482727649786005AD4D3 /* ChowisSDK.framework */; platformFilter = ios; };
+		3FDF4833276497E0005AD4D3 /* ChowisSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3FDF482727649786005AD4D3 /* ChowisSDK.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3FDF4834276497F1005AD4D3 /* CWSLoginCRM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FDF482527649786005AD4D3 /* CWSLoginCRM.framework */; platformFilter = ios; };
+		3FDF4835276497F1005AD4D3 /* CWSLoginCRM.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3FDF482527649786005AD4D3 /* CWSLoginCRM.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B629B5982748A9B3000E2BA6 /* Pods_DermaBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F98E57EAE86A738F335276 /* Pods_DermaBox.framework */; };
 		C300B70D24F25C1F007DE5CA /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C300B70C24F25C1F007DE5CA /* iPad.storyboard */; };
 		C300B70F24F26318007DE5CA /* DiagnosisInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C300B70E24F26318007DE5CA /* DiagnosisInformation.swift */; };
@@ -183,12 +190,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C5E36CBE24ECE25D0064A12B /* Embed Frameworks */ = {
+		3FDF4831276497CD005AD4D3 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				3FDF4833276497E0005AD4D3 /* ChowisSDK.framework in Embed Frameworks */,
+				3FDF4835276497F1005AD4D3 /* CWSLoginCRM.framework in Embed Frameworks */,
+				3FDF4830276497CD005AD4D3 /* CWLocalAlgorithm.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,7 +206,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3F95F0EE27647B6F001D762A /* Plugins */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Plugins; sourceTree = "<group>"; };
+		3FDF482327649786005AD4D3 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		3FDF482427649786005AD4D3 /* CWLocalAlgorithm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CWLocalAlgorithm.framework; sourceTree = "<group>"; };
+		3FDF482527649786005AD4D3 /* CWSLoginCRM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CWSLoginCRM.framework; sourceTree = "<group>"; };
+		3FDF482627649786005AD4D3 /* FFmpeg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FFmpeg.framework; sourceTree = "<group>"; };
+		3FDF482727649786005AD4D3 /* ChowisSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ChowisSDK.framework; sourceTree = "<group>"; };
 		74E117B08A71A197B6C47AAC /* Pods-DermaBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DermaBox.debug.xcconfig"; path = "Target Support Files/Pods-DermaBox/Pods-DermaBox.debug.xcconfig"; sourceTree = "<group>"; };
 		90F98E57EAE86A738F335276 /* Pods_DermaBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DermaBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF2840363B35683F41F48FB /* Pods-DermaBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DermaBox.release.xcconfig"; path = "Target Support Files/Pods-DermaBox/Pods-DermaBox.release.xcconfig"; sourceTree = "<group>"; };
@@ -324,6 +338,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FDF482F276497CD005AD4D3 /* CWLocalAlgorithm.framework in Frameworks */,
+				3FDF4834276497F1005AD4D3 /* CWSLoginCRM.framework in Frameworks */,
+				3FDF482B27649786005AD4D3 /* FFmpeg.framework in Frameworks */,
+				3FDF4832276497E0005AD4D3 /* ChowisSDK.framework in Frameworks */,
+				3FDF482827649786005AD4D3 /* opencv2.framework in Frameworks */,
 				B629B5982748A9B3000E2BA6 /* Pods_DermaBox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,6 +350,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FDF4818276482C8005AD4D3 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				3FDF482727649786005AD4D3 /* ChowisSDK.framework */,
+				3FDF482427649786005AD4D3 /* CWLocalAlgorithm.framework */,
+				3FDF482527649786005AD4D3 /* CWSLoginCRM.framework */,
+				3FDF482627649786005AD4D3 /* FFmpeg.framework */,
+				3FDF482327649786005AD4D3 /* opencv2.framework */,
+			);
+			path = Plugins;
+			sourceTree = "<group>";
+		};
 		B620A4E62748AAFD00228E6F /* Main */ = {
 			isa = PBXGroup;
 			children = (
@@ -383,7 +414,7 @@
 		B629B5812748A7B9000E2BA6 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				3F95F0EE27647B6F001D762A /* Plugins */,
+				3FDF4818276482C8005AD4D3 /* Plugins */,
 				B629B58D2748A7F4000E2BA6 /* Info */,
 				B629B58E2748A80F000E2BA6 /* Storyboards */,
 				C3F6064324BB1A2000B7474D /* Utilities */,
@@ -851,8 +882,8 @@
 				C3F6062624BB182600B7474D /* Sources */,
 				C3F6062724BB182600B7474D /* Frameworks */,
 				C3F6062824BB182600B7474D /* Resources */,
-				C5E36CBE24ECE25D0064A12B /* Embed Frameworks */,
 				DC8CDD4C3A475FA014D0EDB4 /* [CP] Embed Pods Frameworks */,
+				3FDF4831276497CD005AD4D3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1017,7 +1048,6 @@
 				C3EFE34B2530824500A4ECE3 /* FullWrinkleAnalysisViewController.xib in Resources */,
 				C35A584E24C490280004D157 /* BirthDayViewController.xib in Resources */,
 				C3F6065324BB2C6400B7474D /* DeviceActivationQRScanViewController.xib in Resources */,
-				3F95F0EF27647B6F001D762A /* Plugins in Resources */,
 				C354C5EB24CC2A2B00E51229 /* Montserrat-Italic.ttf in Resources */,
 				C354C60B24CD94A900E51229 /* SkinColorGroupViewController.xib in Resources */,
 				C30DC27E2504B5C10020710E /* DeviceInitViewController.xib in Resources */,
@@ -1304,6 +1334,7 @@
 					"$(PROJECT_DIR)/DermaBox/Chowis\\ Framework",
 					"$(PROJECT_DIR)/DermaBox",
 					"$(PROJECT_DIR)/DermaBox/App/Plugins",
+					"$(PROJECT_DIR)/DermaBox/App/BasePlugins",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/DermaBox/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
@@ -1342,6 +1373,7 @@
 					"$(PROJECT_DIR)/DermaBox/Chowis\\ Framework",
 					"$(PROJECT_DIR)/DermaBox",
 					"$(PROJECT_DIR)/DermaBox/App/Plugins",
+					"$(PROJECT_DIR)/DermaBox/App/BasePlugins",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/DermaBox/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;

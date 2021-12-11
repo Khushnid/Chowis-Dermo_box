@@ -3,19 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B629B5902748A994000E2BA6 /* CWLocalAlgorithm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B629B5842748A7E8000E2BA6 /* CWLocalAlgorithm.framework */; platformFilter = ios; };
-		B629B5912748A994000E2BA6 /* CWLocalAlgorithm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B629B5842748A7E8000E2BA6 /* CWLocalAlgorithm.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B629B5922748A996000E2BA6 /* CWSLoginCRM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B629B5872748A7E8000E2BA6 /* CWSLoginCRM.framework */; platformFilter = ios; };
-		B629B5932748A996000E2BA6 /* CWSLoginCRM.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B629B5872748A7E8000E2BA6 /* CWSLoginCRM.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B629B5942748A9B1000E2BA6 /* FFmpeg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B629B5852748A7E8000E2BA6 /* FFmpeg.framework */; };
-		B629B5962748A9B2000E2BA6 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B629B5862748A7E8000E2BA6 /* opencv2.framework */; };
+		3F95F0EF27647B6F001D762A /* Plugins in Resources */ = {isa = PBXBuildFile; fileRef = 3F95F0EE27647B6F001D762A /* Plugins */; };
 		B629B5982748A9B3000E2BA6 /* Pods_DermaBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F98E57EAE86A738F335276 /* Pods_DermaBox.framework */; };
-		B629B59A2748A9B5000E2BA6 /* ChowisSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B629B5832748A7E8000E2BA6 /* ChowisSDK.framework */; platformFilter = ios; };
-		B629B59B2748A9B5000E2BA6 /* ChowisSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B629B5832748A7E8000E2BA6 /* ChowisSDK.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C300B70D24F25C1F007DE5CA /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C300B70C24F25C1F007DE5CA /* iPad.storyboard */; };
 		C300B70F24F26318007DE5CA /* DiagnosisInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C300B70E24F26318007DE5CA /* DiagnosisInformation.swift */; };
 		C30A72E8252428EC007B1AA6 /* SkinToneQuestionnaireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30A72E6252428EC007B1AA6 /* SkinToneQuestionnaireViewController.swift */; };
@@ -196,9 +189,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B629B5912748A994000E2BA6 /* CWLocalAlgorithm.framework in Embed Frameworks */,
-				B629B5932748A996000E2BA6 /* CWSLoginCRM.framework in Embed Frameworks */,
-				B629B59B2748A9B5000E2BA6 /* ChowisSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,14 +196,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3F95F0EE27647B6F001D762A /* Plugins */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Plugins; sourceTree = "<group>"; };
 		74E117B08A71A197B6C47AAC /* Pods-DermaBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DermaBox.debug.xcconfig"; path = "Target Support Files/Pods-DermaBox/Pods-DermaBox.debug.xcconfig"; sourceTree = "<group>"; };
 		90F98E57EAE86A738F335276 /* Pods_DermaBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DermaBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF2840363B35683F41F48FB /* Pods-DermaBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DermaBox.release.xcconfig"; path = "Target Support Files/Pods-DermaBox/Pods-DermaBox.release.xcconfig"; sourceTree = "<group>"; };
-		B629B5832748A7E8000E2BA6 /* ChowisSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ChowisSDK.framework; sourceTree = "<group>"; };
-		B629B5842748A7E8000E2BA6 /* CWLocalAlgorithm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CWLocalAlgorithm.framework; sourceTree = "<group>"; };
-		B629B5852748A7E8000E2BA6 /* FFmpeg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FFmpeg.framework; sourceTree = "<group>"; };
-		B629B5862748A7E8000E2BA6 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
-		B629B5872748A7E8000E2BA6 /* CWSLoginCRM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CWSLoginCRM.framework; sourceTree = "<group>"; };
 		C300B70C24F25C1F007DE5CA /* iPad.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPad.storyboard; sourceTree = "<group>"; };
 		C300B70E24F26318007DE5CA /* DiagnosisInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosisInformation.swift; sourceTree = "<group>"; };
 		C30A72E6252428EC007B1AA6 /* SkinToneQuestionnaireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinToneQuestionnaireViewController.swift; sourceTree = "<group>"; };
@@ -339,11 +325,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B629B5982748A9B3000E2BA6 /* Pods_DermaBox.framework in Frameworks */,
-				B629B5962748A9B2000E2BA6 /* opencv2.framework in Frameworks */,
-				B629B59A2748A9B5000E2BA6 /* ChowisSDK.framework in Frameworks */,
-				B629B5902748A994000E2BA6 /* CWLocalAlgorithm.framework in Frameworks */,
-				B629B5922748A996000E2BA6 /* CWSLoginCRM.framework in Frameworks */,
-				B629B5942748A9B1000E2BA6 /* FFmpeg.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,25 +383,13 @@
 		B629B5812748A7B9000E2BA6 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				B629B5822748A7E8000E2BA6 /* Plugins */,
+				3F95F0EE27647B6F001D762A /* Plugins */,
 				B629B58D2748A7F4000E2BA6 /* Info */,
 				B629B58E2748A80F000E2BA6 /* Storyboards */,
 				C3F6064324BB1A2000B7474D /* Utilities */,
 				C3F6064524BB1A2F00B7474D /* Extensions */,
 			);
 			path = App;
-			sourceTree = "<group>";
-		};
-		B629B5822748A7E8000E2BA6 /* Plugins */ = {
-			isa = PBXGroup;
-			children = (
-				B629B5832748A7E8000E2BA6 /* ChowisSDK.framework */,
-				B629B5842748A7E8000E2BA6 /* CWLocalAlgorithm.framework */,
-				B629B5852748A7E8000E2BA6 /* FFmpeg.framework */,
-				B629B5862748A7E8000E2BA6 /* opencv2.framework */,
-				B629B5872748A7E8000E2BA6 /* CWSLoginCRM.framework */,
-			);
-			path = Plugins;
 			sourceTree = "<group>";
 		};
 		B629B58D2748A7F4000E2BA6 /* Info */ = {
@@ -806,14 +775,14 @@
 		E78899402663AAC0000FDF04 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E788994A2663AAC0000FDF04 /* AFNetworking.framework */,
-				E788994C2663AAC0000FDF04 /* Alamofire.framework */,
-				E788994E2663AAC0000FDF04 /* DropDown.framework */,
-				E78899502663AAC0000FDF04 /* NVActivityIndicatorView.framework */,
+				E788994A2663AAC0000FDF04 /* AFNetworking */,
+				E788994C2663AAC0000FDF04 /* Alamofire */,
+				E788994E2663AAC0000FDF04 /* DropDown */,
+				E78899502663AAC0000FDF04 /* NVActivityIndicatorView */,
 				E78899522663AAC0000FDF04 /* Pods-DermaBox */,
-				E78899542663AAC0000FDF04 /* Reachability.framework */,
-				E7736EF0266CCA04008C5DE7 /* SwiftyJSON.framework */,
-				E78899562663AAC0000FDF04 /* Toaster.framework */,
+				E78899542663AAC0000FDF04 /* ReachabilitySwift */,
+				E7736EF0266CCA04008C5DE7 /* SwiftyJSON */,
+				E78899562663AAC0000FDF04 /* Toaster */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -935,37 +904,42 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		E7736EF0266CCA04008C5DE7 /* SwiftyJSON.framework */ = {
+		E7736EF0266CCA04008C5DE7 /* SwiftyJSON */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
+			name = SwiftyJSON;
 			path = SwiftyJSON.framework;
 			remoteRef = E7736EEF266CCA04008C5DE7 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		E788994A2663AAC0000FDF04 /* AFNetworking.framework */ = {
+		E788994A2663AAC0000FDF04 /* AFNetworking */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
+			name = AFNetworking;
 			path = AFNetworking.framework;
 			remoteRef = E78899492663AAC0000FDF04 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		E788994C2663AAC0000FDF04 /* Alamofire.framework */ = {
+		E788994C2663AAC0000FDF04 /* Alamofire */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
+			name = Alamofire;
 			path = Alamofire.framework;
 			remoteRef = E788994B2663AAC0000FDF04 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		E788994E2663AAC0000FDF04 /* DropDown.framework */ = {
+		E788994E2663AAC0000FDF04 /* DropDown */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
+			name = DropDown;
 			path = DropDown.framework;
 			remoteRef = E788994D2663AAC0000FDF04 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		E78899502663AAC0000FDF04 /* NVActivityIndicatorView.framework */ = {
+		E78899502663AAC0000FDF04 /* NVActivityIndicatorView */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
+			name = NVActivityIndicatorView;
 			path = NVActivityIndicatorView.framework;
 			remoteRef = E788994F2663AAC0000FDF04 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -978,16 +952,18 @@
 			remoteRef = E78899512663AAC0000FDF04 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		E78899542663AAC0000FDF04 /* Reachability.framework */ = {
+		E78899542663AAC0000FDF04 /* ReachabilitySwift */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
+			name = ReachabilitySwift;
 			path = Reachability.framework;
 			remoteRef = E78899532663AAC0000FDF04 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		E78899562663AAC0000FDF04 /* Toaster.framework */ = {
+		E78899562663AAC0000FDF04 /* Toaster */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
+			name = Toaster;
 			path = Toaster.framework;
 			remoteRef = E78899552663AAC0000FDF04 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -1041,6 +1017,7 @@
 				C3EFE34B2530824500A4ECE3 /* FullWrinkleAnalysisViewController.xib in Resources */,
 				C35A584E24C490280004D157 /* BirthDayViewController.xib in Resources */,
 				C3F6065324BB2C6400B7474D /* DeviceActivationQRScanViewController.xib in Resources */,
+				3F95F0EF27647B6F001D762A /* Plugins in Resources */,
 				C354C5EB24CC2A2B00E51229 /* Montserrat-Italic.ttf in Resources */,
 				C354C60B24CD94A900E51229 /* SkinColorGroupViewController.xib in Resources */,
 				C30DC27E2504B5C10020710E /* DeviceInitViewController.xib in Resources */,
